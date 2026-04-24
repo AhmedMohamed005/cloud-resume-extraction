@@ -1,0 +1,80 @@
+CONCEPT NOTE
+Cloud-Based Resume
+Information Extraction System
+Automated structured data extraction from unstructured PDF resumes using fine-tuned NLP models and AWS cloud deployment.
+Domain:
+Natural Language Processing · Cloud Computing
+Deployment:
+AWS (EC2, S3, IAM, CloudWatch)
+Interface:
+REST API (FastAPI) · JSON Output
+Testing:
+Postman HTTP Client
+
+1. Problem Statement
+Resumes are produced in a wide variety of formats, layouts, and writing styles, making automated processing a significant challenge. Manual review of large volumes of resumes is time-consuming, inconsistent, and difficult to scale within recruitment workflows.
+Existing keyword-search approaches and rule-based parsers fail to generalise across non-standard resume structures, breaking whenever layout conventions differ. There is a clear need for an intelligent, automated system that converts unstructured PDF resumes into a standardised, machine-readable format regardless of document layout or writing style.
+2. Proposed Solution
+This project delivers a cloud-hosted, API-accessible pipeline that accepts PDF resumes as input and returns structured JSON containing key candidate information. The system combines document parsing, text preprocessing, and a fine-tuned NLP model — all deployed on AWS and exposed via a FastAPI backend.
+The end-to-end pipeline flows as follows:
+PDF Resume  →  Text Extraction  →  Preprocessing  →  NLP Model (LoRA)  →  Structured JSON Output
+3. System Components
+Component
+Role & Description
+PDF Parser
+Converts uploaded PDF resume into raw text using PyMuPDF or pdfminer.six.
+Preprocessor
+Cleans extracted text — removes noise, normalises whitespace, and resolves encoding inconsistencies.
+NLP Model
+Fine-tuned Hugging Face Transformer with LoRA adapters, trained for named entity recognition on resume fields.
+JSON Formatter
+Converts model predictions into a structured output schema covering name, skills, education, and experience.
+FastAPI Backend
+Exposes a REST endpoint (/extract) that accepts PDF uploads and returns structured JSON.
+AWS EC2
+Hosts the backend server, providing scalable and remote access to the API.
+AWS S3
+Optional storage layer for uploaded resume files and output records.
+
+4. AI Component
+The core intelligence of the system lies in a Transformer-based language model sourced from Hugging Face and fine-tuned on annotated resume data. To keep computational requirements manageable, Low-Rank Adaptation (LoRA) is applied — a parameter-efficient fine-tuning technique that trains only a small set of adapter weights rather than the full model parameters.
+The model is trained to identify and classify entities including:
+	•	Candidate name and personal contact details
+	•	Technical and soft skills
+	•	Educational qualifications and institutions
+	•	Work experience and employment history
+
+Model quality is assessed using standard information extraction metrics:
+	•	Precision — the proportion of extracted entities that are correct
+	•	Recall — the proportion of actual entities successfully identified
+	•	F1-score — the harmonic mean of Precision and Recall
+5. Cloud Architecture
+The system is designed for cloud deployment from the ground up. The FastAPI application runs on an AWS EC2 instance and is accessible via HTTP requests. Users and automated systems interact with the service through a clean REST API, testable via Postman or any HTTP client.
+
+AWS services used:
+	•	AWS EC2 — Compute instance hosting the FastAPI backend server
+	•	AWS S3 — Scalable object storage for resume files and outputs
+	•	AWS IAM — Identity and access management for secure service interaction
+	•	CloudWatch — Logging, monitoring, and alerting for the deployed application
+6. Expected Outcomes
+Deliverable
+Description
+Working API
+A live, cloud-hosted endpoint that processes PDF resumes and returns structured JSON.
+Fine-tuned Model
+A LoRA-adapted NLP model achieving strong F1 scores on held-out resume test data.
+Evaluation Report
+Precision, Recall, and F1 metrics across entity types.
+Documentation
+API usage guide, architecture overview, and model training pipeline documentation.
+
+7. Technology Stack
+The following technologies form the core of this system:
+	•	Python — primary development language for all pipeline components
+	•	FastAPI — high-performance web framework for the REST API layer
+	•	Hugging Face Transformers — pre-trained language model library
+	•	LoRA / PEFT — parameter-efficient fine-tuning for the NLP model
+	•	PyMuPDF / pdfminer.six — PDF parsing and text extraction
+	•	AWS EC2, S3, IAM, CloudWatch — cloud infrastructure and services
+	•	Postman — API testing and validation tool
+	•	JSON — standardised output format for extracted resume data

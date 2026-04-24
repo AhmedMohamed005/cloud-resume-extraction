@@ -1,0 +1,21 @@
+# Raw folder name -> canonical label (snake_case)
+# Keep this file small and only add explicit exceptions.
+# Auto-normalization already handles casing, underscores, and the word "resumes".
+
+IT: information_technology
+PBO: bpo
+DOT: dotnet
+NSE: network_security_engineer
+OperationManager: operations_manager
+WebDesigning: web_designing
+Architects resumes: architect
+BusinessAnalyst: business_analyst
+CivilEngineer: civil_engineer
+DataScience: data_science
+DevOpsEngineer: devops_engineer
+HealthFitness: health_fitness
+JavaDeveloper: java_developer
+MechanicalEngineer: mechanical_engineer
+PythonDeveloper: python_developer
+SAPDeveloper: sap_developer
+Managment resumes: management

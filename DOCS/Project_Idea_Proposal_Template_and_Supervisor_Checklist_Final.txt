@@ -1,0 +1,325 @@
+Cloud Computing Spring 2026 Standard Project Idea Proposal Template and Supervisor Scoring Checklist
+Use this document in two stages: students fill in Part I, then supervisors review Part II against the same submission.
+Who uses it
+Students complete Part I before idea approval. Supervisors complete Part II after reviewing the proposal.
+Submission rule
+Ideas should be approved only when the problem is clear, the scope is realistic, the course mapping is genuine, the evaluation plan is measurable, and the team can demonstrate a working end-to-end deliverable.
+
+Part I — Student Project Idea Proposal Template
+Students should submit all fields below in the same order. If a field does not apply, write “Not Applicable” and justify briefly.
+Team name / ID
+
+Team type
+AI-only
+Course mapping
+Cloud + NLP
+Proposed project title
+Resume Information Extraction System
+Team members and IDs
+عبدالله حسين سيد  20230334
+يوسف ناصر سيد  20230697 
+عمر اشرف عبدالهادي  20220315
+احمد محمد رمضان  20230041
+عمر تامر صبحي  20230368
+ياسين وليد صفوت  20230661 محمد محمد عبد العظيم زكي  20230503
+
+1. Problem statement and target users
+	•	What problem are you solving?
+	•	Who are the target users or stakeholders?
+	•	Why is this problem worth solving in this semester project?
+Team response:
+Many resumes are unstructured and vary widely in format, making it difficult to automatically extract useful information such as skills, education, and experience. This creates challenges for recruiters and automated hiring systems, especially when processing large volumes of resumes.
+The target users are recruiters, HR systems, and companies that need a scalable solution to handle resume processing efficiently.
+This problem is suitable for this project because it combines a clear cloud-based system design with a supporting Natural Language Processing (NLP) component. The cloud enables scalable deployment and remote access to the service, while the NLP model performs the information extraction. The system can be implemented and evaluated within the semester using available datasets and cloud infrastructure.
+
+
+2. Project summary in plain language
+	•	Describe the idea in 4–6 clear sentences without buzzwords.
+	•	State what the system will do from the user’s point of view.
+Team response:
+The system will take a resume in PDF format as input and automatically extract important information such as name, skills, and education. The PDF will first be converted into text, then processed by an AI model.
+The model will analyze the text and generate a structured JSON output containing the extracted information. Users will interact with the system through an API and receive results instantly.
+The goal is to turn messy resume documents into clean, structured data that can be easily used.
+
+3. Core features or modules
+	•	List the planned modules or subsystems.
+	•	For software-heavy teams, show at least four meaningful functional modules.
+	•	Mark which modules are essential for the minimum viable version.
+Team response:
+	•	PDF Text Extraction Module (Essential)
+	•	Data Preprocessing Module (Essential)
+	•	AI Model Inference Module (Essential)
+	•	Structured Output Generation (JSON) (Essential)
+	•	API Interaction & Testing Module (Postman) (Essential)
+	•	Model Evaluation Module (Essential)
+	•	Data Storage Module (Optional)
+ 
+
+4. Course mapping and academic contribution
+	•	State which course(s) the project maps to.
+	•	Explain what each course contributes to the project.
+	•	For mixed teams, clearly separate the CS layer, AI/algorithm layer, and cloud layer.
+Team response:
+This project primarily maps to Cloud Computing, with support from Natural Language Processing (NLP).
+	•	 Cloud Computing (Main Contribution): The system will be deployed on AWS using services such as EC2 for hosting the backend API and S3 for storing uploaded resumes. Docker will be used for containerization to ensure portability and reproducibility. The project demonstrates cloud concepts such as scalable deployment, remote access to AI services, and system reliability.
+	•	 NLP (Supporting Contribution): The project applies NLP techniques using Hugging Face Transformers and fine-tuning with LoRA to extract structured information from resumes.
+
+
+5. Technical approach and stack
+	•	List the main technologies, frameworks, languages, libraries, and databases.
+	•	State whether the solution is monolithic, modular, or microservices-based.
+	•	Identify which parts will be implemented in Spring Boot, Python, or other tools.
+Team response:
+ 
+ Backend: Python (FastAPI)
+	•	AI/ML: Hugging Face Transformers, PyTorch, LoRA
+	•	PDF Processing: pdfplumber / PyMuPDF
+	•	Database: SQLite
+	•	Deployment: Docker + AWS EC2
+The system follows a modular architecture: PDF → text extraction → preprocessing → model → JSON output
+
+6. Data, inputs, or test scenarios
+	•	Identify the dataset, input source, simulated scenarios, or sample cases you will use.
+	•	State how you will obtain or prepare them.
+	•	Note any data limitations, privacy concerns, or access restrictions.
+Team response:
+ The project will use publicly available resume datasets from Kaggle, along with additional synthetic resumes.
+Input will be PDF resumes, which will be converted into text using PDF parsing tools. The text will then be cleaned and mapped into structured JSON format.
+Limitations include inconsistent formatting in resumes and possible noise in extracted text.
+ 
+
+7. AI / model / algorithm plan (complete if applicable)
+	•	State the baseline model or baseline algorithm.
+	•	State the intended improvement, optimization, or experimental comparison.
+	•	For NLU-like ideas: identify the base model, LoRA plan, and structured output format.
+	•	For EA-like ideas: define representation, fitness function, operators, and experiment settings.
+Team response:
+ Team response:
+	•	 Baseline Model: Pretrained transformer model from Hugging Face Transformers
+	•	 Improvement: Fine-tuning using LoRA
+	•	 Approach: Instruction-based learning (text → structured JSON)
+	•	 Output Format:
+{
+  "name": "...",
+  "skills": [...],
+  "education": "..."
+}
+The model will be evaluated before and after fine-tuning.
+
+
+8. Cloud and deployment plan
+	•	State how the project will use cloud resources.
+	•	Identify deployment targets, storage needs, monitoring/logging needs, and security considerations.
+	•	Explain why the cloud contribution is meaningful, not decorative.
+Team response:
+ The project is designed with cloud deployment as a core component.
+The system will be containerized using Docker and deployed on AWS. The FastAPI backend (including the trained model) will run on an EC2 instance, exposing a public API for resume processing.
+Uploaded resumes can be stored in S3, while results are stored locally or in a lightweight database. The cloud enables remote access, scalability, and reliable system operation.
+This ensures the cloud component is essential to system functionality, not just an add-on.
+
+9. Evaluation plan
+	•	List the success criteria and metrics.
+	•	Include both functional metrics and technical/model metrics where relevant.
+	•	State what you will compare against: baseline, ablation, heuristic, or previous version.
+Team response:
+	•	Model Metrics: Precision, Recall, F1-score
+	•	Output Quality: Correct JSON structure and completeness
+	•	Latency: API response time
+	•	Comparison: Base model vs fine-tuned model
+ 
+
+10. Scope control and minimum viable version
+	•	State the minimum viable version that must work by the final demo.
+	•	List optional stretch features separately.
+	•	State what you will cut first if time becomes tight.
+Team response:
+ MVP:
+	•	 Input: PDF resume
+	•	 Output: JSON with name, skills, education
+	•	 Working end-to-end pipeline
+Optional:
+	•	More fields (experience, projects)
+	•	Better parsing for complex layouts
+	•	Cloud optimization
+
+
+11. Team role split
+	•	List each team member’s main responsibility.
+	•	Show how the workload is divided fairly.
+	•	Identify integration points between members or subteams.
+Team response:
+	•	Member 1: AI Lead + Integration
+	•	Member 2: Data collection
+	•	Member 3: PDF processing
+	•	Member 4: Data preprocessing
+	•	Member 5: Model training
+	•	Member 6: Model evaluation
+	•	Member 7: Testing & validation
+ 
+ 
+
+12. Demo scenario
+	•	Describe the exact end-to-end demo flow in 5–10 steps.
+	•	State what input the examiner will provide, what the system will do, and what output will be shown.
+Team response:
+
+	•	Examiner uploads a PDF resume
+	•	System extracts text from PDF
+	•	Text is cleaned and preprocessed
+	•	Model processes the text
+	•	System generates structured JSON
+	•	Output is displayed via API response
+	•	Results are validated for correctness
+
+
+13. Risks, ethics, and constraints
+	•	List the top risks: data risk, integration risk, compute cost, timeline risk, or dependency risk.
+	•	State how you will reduce each risk.
+	•	Note any ethical, legal, privacy, or safety concerns.
+Team response:
+ 
+Model accuracy risk: improve via fine-tuning and evaluation
+
+	•	PDF parsing issues: test multiple tools
+	•	Time constraints: limit MVP scope
+Ethical concerns:
+	•	 Avoid using sensitive personal data
+	•	 Use only public or synthetic datasets
+ 
+ 
+
+
+Student submission package checklist
+[✓] Completed Part I in full
+[✓] Proposed project title and clear problem statement
+[✓] Course mapping explained
+[✓] Dataset / input source identified
+[✓] Evaluation plan with metrics
+[✓] MVP scope clearly stated
+[✓] Team role split included
+[✓] Demo scenario included
+
+Part II — Supervisor Scoring Checklist
+Use the gate checklist first. Then complete the scoring rubric and final decision block.
+A. Approval gate checklist
+Approval condition
+Yes
+No
+Notes / conditions
+Problem is clearly defined and user value is understandable.
+[ ]
+[ ]
+
+Scope is realistic for the timeline and team size.
+[ ]
+[ ]
+
+Project has enough technical depth for the team type.
+[ ]
+[ ]
+
+Inputs / dataset / scenarios are available and usable.
+[ ]
+[ ]
+
+Evaluation metrics and comparison plan are clear.
+[ ]
+[ ]
+
+Work can be divided fairly across team members.
+[ ]
+[ ]
+
+The project supports a stable end-to-end demo.
+[ ]
+[ ]
+
+Course mapping is natural and academically defensible.
+[ ]
+[ ]
+
+Documentation requirements can be satisfied.
+[ ]
+[ ]
+
+The proposal avoids obvious ethical, legal, or privacy problems.
+[ ]
+[ ]
+
+Cloud contribution is meaningful and not merely decorative.
+[ ]
+[ ]
+
+The team has a clear minimum viable version and fallback plan.
+[ ]
+[ ]
+
+
+B. Suggested scoring rubric (100 marks)
+Criterion
+Weight
+Score
+Supervisor notes
+Problem definition and scope
+10
+
+
+Technical depth and course alignment
+15
+
+
+System or model design quality
+15
+
+
+Data / inputs / preprocessing quality
+10
+
+
+Evaluation plan and measurable success criteria
+10
+
+
+Feasibility and timeline realism
+10
+
+
+Team role distribution and fairness
+10
+
+
+Cloud architecture / deployment relevance
+10
+
+
+Documentation readiness
+5
+
+
+Demo readiness
+5
+
+
+
+C. Team-type checks
+CS-only teams
+Must include a real software system with backend logic, APIs, persistence, modular architecture, Dockerization, and meaningful workflows. Reject ideas that are only a basic CRUD app or only a wrapper around external AI APIs.
+AI-only teams
+Must include a defined modeling or optimization problem, a baseline, measurable evaluation, experiments, and analysis. Reject ideas that are only prompt engineering, only a UI around a ready-made model, or only a literature survey.
+Mixed teams
+Must show three visible layers: product/system layer, AI or algorithm layer, and cloud/deployment layer. Reject ideas where one layer is only cosmetic or where the work split is clearly unbalanced.
+Supervisor note
+If the core idea is promising but too broad, use “Approve with conditions” and require a narrower MVP, clearer data plan, or simpler integration scope.
+
+D. Final decision
+Decision
+[ ] Approve   [ ] Approve with conditions   [ ] Revise and resubmit   [ ] Reject
+Required conditions
+
+Most important scope correction
+
+Supervisor comments
+
+Supervisor name / signature / date
+
+

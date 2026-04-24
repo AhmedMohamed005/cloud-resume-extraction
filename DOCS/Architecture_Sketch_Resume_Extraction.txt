@@ -1,0 +1,109 @@
+ARCHITECTURE SKETCH
+Cloud-Based Resume
+Information Extraction System
+System architecture and component relationships for the end-to-end PDF resume processing pipeline.
+1. End-to-End Pipeline Overview
+The system processes resumes in a linear pipeline from raw PDF input to structured JSON output. Each stage transforms the data before passing it to the next component.
+
+PDF Resume
+User upload
+→
+
+Text Extraction
+PyMuPDF
+→
+
+Preprocessing
+Clean & norm.
+→
+
+NLP Model
+HuggingFace+LoRA
+→
+
+JSON Output
+Structured data
+
+2. System Layers
+Layer 1 — User
+End-user interaction point
+User
+Uploads PDF resume via client
+⇄
+Postman / HTTP Client
+Tests and calls API endpoints
+↓  HTTP POST /extract  |  PDF payload
+Layer 2 — API Gateway
+Request routing and validation
+FastAPI Backend
+Routes, validates, and dispatches requests
+↔
+AWS EC2 Instance
+Hosts the FastAPI application server
+↓  Raw PDF bytes
+Layer 3 — AI Processing Pipeline
+Core intelligence — extract, clean, infer
+PDF Parser
+PyMuPDF / pdfminer
+→
+raw text
+Preprocessor
+Clean & normalize
+→
+clean text
+NLP Model
+HuggingFace + LoRA
+↓  Entity predictions
+JSON Formatter
+Structures model output into schema: name, skills, education, experience
+←
+Evaluation Module
+Precision / Recall / F1-score metrics
+↓  JSON response
+Layer 4 — Cloud Infrastructure (AWS)
+Scalability, storage, access control, monitoring
+AWS S3
+Resume file storage
+
+AWS IAM
+Access control
+
+CloudWatch
+Logs & monitoring
+
+Auto Scaling
+Handles load variation
+
+3. Data Flow Description
+Step
+Stage
+What happens
+1
+Client upload
+User or testing client sends a POST request with the PDF resume to the FastAPI endpoint.
+2
+Request routing
+FastAPI validates the request, extracts the PDF binary, and forwards it to the processing pipeline.
+3
+Text extraction
+The PDF parser (PyMuPDF / pdfminer) reads the binary and extracts raw text content.
+4
+Preprocessing
+The raw text is cleaned: whitespace normalised, noise removed, encoding resolved.
+5
+Model inference
+The preprocessed text is passed to the fine-tuned HuggingFace model with LoRA adapters. The model identifies named entities.
+6
+JSON formatting
+Model outputs are mapped to a structured JSON schema with defined fields (name, skills, education, experience).
+7
+Response
+The JSON is returned to the client via the API response. Files may also be stored in AWS S3.
+
+4. Key Design Decisions
+The following architectural choices were made to meet the project's requirements:
+	•	FastAPI over Flask or Django — higher performance, async-ready, and automatic OpenAPI documentation generation.
+	•	LoRA fine-tuning — reduces GPU memory requirements significantly compared to full fine-tuning, enabling deployment on standard EC2 instances.
+	•	AWS EC2 over Lambda — NLP model inference requires persistent memory; serverless cold starts would be too slow for this use case.
+	•	PDF parsing before NLP — separating parsing from inference keeps the pipeline modular and allows the parser to be swapped independently.
+	•	JSON output schema — structured output enables direct integration with downstream ATS (Applicant Tracking Systems) or databases.
