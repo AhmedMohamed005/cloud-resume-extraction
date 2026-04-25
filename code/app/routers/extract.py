@@ -4,11 +4,11 @@ import time
 import uuid
 import logging
 
-from fastapi import APIRouter, File, HTTPException, UploadFile
+from fastapi import APIRouter, File, HTTPException, Query, UploadFile
 
 from app.schemas.output_schema import ExtractResponse, ExtractionMetadata
 from app.services.formatter import sanitize_profile
-from app.services.inference import run_mock_inference
+from app.services.inference import debug_output, run_mock_inference
 from app.services.parser import extract_text_from_pdf_bytes
 from app.services.preprocess import clean_resume_text
 
@@ -20,7 +20,10 @@ _MAX_PDF_SIZE_BYTES = 10 * 1024 * 1024
 
 
 @router.post("", response_model=ExtractResponse)
-async def extract_resume(file: UploadFile = File(...)) -> ExtractResponse:
+async def extract_resume(
+    file: UploadFile = File(...),
+    debug: bool = Query(default=False, description="Return intermediate extraction/debug details"),
+) -> ExtractResponse:
     start = time.perf_counter()
     request_id = str(uuid.uuid4())
 
@@ -74,4 +77,8 @@ async def extract_resume(file: UploadFile = File(...)) -> ExtractResponse:
 
     logger.info(f"[{request_id}] Completed in {processing_ms} ms")
 
-    return ExtractResponse(profile=profile, metadata=metadata)
+    debug_payload = None
+    if debug:
+        debug_payload = debug_output(parsed.text, clean_text, profile)
+
+    return ExtractResponse(profile=profile, metadata=metadata, debug=debug_payload)

@@ -56,3 +56,27 @@ def test_extract_rejects_empty_text_pdf() -> None:
             "Tesseract binary is not installed",
         )
     )
+
+
+def test_extract_debug_mode_includes_intermediate_fields() -> None:
+    sample_pdf = next(Path("dataset/Resumes PDF").rglob("*.pdf"), None)
+    if sample_pdf is None:
+        return
+
+    client = TestClient(app)
+    with sample_pdf.open("rb") as f:
+        response = client.post(
+            "/extract?debug=true",
+            files={"file": (sample_pdf.name, f.read(), "application/pdf")},
+        )
+
+    if response.status_code != 200:
+        return
+
+    payload = response.json()
+    assert "debug" in payload
+    assert payload["debug"] is not None
+    assert "raw_sample" in payload["debug"]
+    assert "clean_sample" in payload["debug"]
+    assert "lines" in payload["debug"]
+    assert "name_candidates" in payload["debug"]

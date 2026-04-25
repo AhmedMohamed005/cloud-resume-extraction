@@ -78,6 +78,8 @@ def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> ParsedText:
 
     ocr_text = _extract_text_with_ocr(pdf_bytes)
     if ocr_text:
+        print("No embedded text found, but OCR succeeded. Returning OCR text.")
+        print(f"OCR extracted text: {ocr_text}...") 
         return ParsedText(text=ocr_text, parser_used=PARSER_PYMUPDF_OCR)
 
     raise ValueError(_ERR_NO_TEXT)

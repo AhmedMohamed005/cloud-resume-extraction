@@ -1,7 +1,8 @@
 from __future__ import annotations
 
+from difflib import SequenceMatcher
 import re
-from typing import List
+from typing import Any, List
 
 from app.schemas.output_schema import CandidateProfile
 
@@ -31,26 +32,25 @@ _SKILL_BANK = {
  
 
 
-
 _NAME_STOPWORDS = {
     "summary", "objective", "resume", "curriculum vitae", "cv",
     "profile", "contact", "personal information", "skills",
     "experience", "education", "references", "projects",
     "certifications", "achievements",
 }
- 
 
 _SECTION_HEADERS = {
     "summary", "objective", "skills", "experience", "education",
     "projects", "certifications", "achievements", "references",
     "employment", "work history", "academic", "languages", "tools",
 }
- 
+
+_STOP_WORDS = {"experience", "skills", "projects", "work"}
+
 _PHONE_PATTERNS = [
     re.compile(r"(?<!\d)(?:\+?\d{1,3}[\s.-]?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}(?!\d)"),
     re.compile(r"(?<!\d)(?:\+?\d{1,3}[\s.-]?)?\d{2,4}[\s.-]\d{3,4}[\s.-]\d{3,4}(?!\d)"),
 ]
-
 
 
 def _first_email(text: str):
@@ -87,56 +87,92 @@ def _first_phone(text: str):
     return None
 
 
-def _is_likely_name(line: str) -> bool:
-    cleaned = line.strip()
-    if not cleaned or "@" in cleaned or any(ch.isdigit() for ch in cleaned):
-        return False
+def score_name_candidate(line: str) -> int:
+    score = 0
+    words = line.split()
 
-    low = re.sub(r"[^a-z\s]", "", cleaned.lower()).strip()
-    if not low or low in _NAME_STOPWORDS:
-        return False
+    if 2 <= len(words) <= 4:
+        score += 2
 
-    words = cleaned.split()
-    if not 2 <= len(words) <= 4:
-        return False
+    if any(char.isdigit() for char in line):
+        score -= 3
 
-    if len(cleaned) > 50:
-        return False
+    low = line.lower()
+    if "@" in line or "http" in low:
+        score -= 3
 
-    # Permit common name punctuation but reject noisy lines.
-    if not all(re.fullmatch(r"[A-Za-z][A-Za-z'\-.]*", w) for w in words):
-        return False
+    if line.istitle():
+        score += 2
 
-    return True
+    if len(line) < 40:
+        score += 1
+
+    normalized = re.sub(r"[^a-z\s]", "", low).strip()
+    if normalized in _NAME_STOPWORDS or normalized in _SECTION_HEADERS:
+        score -= 5
+
+    if not all(re.fullmatch(r"[A-Za-z][A-Za-z'\-.]*", w) for w in words if w):
+        score -= 2
+
+    return score
 
 
-def _guess_name(text: str):
+def extract_name(text: str):
     lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    candidates = lines[:10]
+    if not candidates:
+        return None
 
-    for line in lines[:20]:
-        if any(k in line.lower() for k in ["summary", "experience", "education"]):
-            continue
+    best = max(candidates, key=score_name_candidate, default="")
+    if not best or score_name_candidate(best) <= 0:
+        return None
+    return " ".join(w.capitalize() for w in best.split())
 
-        # ignore noisy lines
-        if len(line) > 40:
-            continue
 
-        if re.search(r"\d|@|http", line):
-            continue
+def _name_candidates(text: str) -> list[dict[str, Any]]:
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
+    candidates = lines[:10]
+    return [{"line": c, "score": score_name_candidate(c)} for c in candidates]
 
-        words = line.split()
-        if 2 <= len(words) <= 4:
-            return " ".join(w.capitalize() for w in words)
 
-    return None
+def similar(a: str, b: str) -> float:
+    return SequenceMatcher(None, a, b).ratio()
 
 def _extract_skills(text: str) -> List[str]:
+    tokens = re.findall(r"\w+", text.lower())
     found = set()
-    tokens = re.findall(r"[A-Za-z][A-Za-z+.#-]{1,30}", text.lower())
-    for token in tokens:
-        if token in _SKILL_BANK:
-            found.add(token)
+
+    for skill in _SKILL_BANK:
+        skill_tokens = skill.split()
+        token_len = len(skill_tokens)
+
+        for i in range(len(tokens)):
+            window = " ".join(tokens[i:i + token_len])
+            if similar(skill, window) > 0.8:
+                found.add(skill)
+
     return sorted(found)
+
+
+def _extract_education(text: str) -> list[str]:
+    lines = [ln.strip() for ln in text.splitlines()]
+    education_section: list[str] = []
+    capture = False
+
+    for line in lines:
+        low = line.lower()
+
+        if "education" in low or "academic" in low:
+            capture = True
+            continue
+
+        if capture:
+            if any(stop in low for stop in _STOP_WORDS):
+                break
+            if line:
+                education_section.append(line)
+
+    return education_section
 
 
 def _section_lines(text: str, header_keywords: list[str]) -> list[str]:
@@ -158,13 +194,23 @@ def _section_lines(text: str, header_keywords: list[str]) -> list[str]:
     return results
 
 
+def debug_output(parsed_text: str, clean_text: str, profile: CandidateProfile) -> dict[str, Any]:
+    return {
+        "raw_sample": parsed_text[:500],
+        "clean_sample": clean_text[:500],
+        "lines": clean_text.split("\n")[:20],
+        "name_candidates": _name_candidates(clean_text),
+        "profile": profile.model_dump(),
+    }
+
+
 def run_mock_inference(clean_text: str) -> tuple[CandidateProfile, float]:
     profile = CandidateProfile(
-        name=_guess_name(clean_text),
+        name=extract_name(clean_text),
         email=_first_email(clean_text),
         phone=_first_phone(clean_text),
         skills=_extract_skills(clean_text),
-        education=_section_lines(clean_text, ["education", "academic"]),
+        education=_extract_education(clean_text),
         experience=_section_lines(clean_text, ["experience", "employment", "work history"]),
     )
 

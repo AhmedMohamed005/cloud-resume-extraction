@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List, Optional
+from typing import Any, List, Optional
 
 from pydantic import BaseModel, Field
 
@@ -25,3 +25,4 @@ class ExtractionMetadata(BaseModel):
 class ExtractResponse(BaseModel):
     profile: CandidateProfile
     metadata: ExtractionMetadata
+    debug: Optional[dict[str, Any]] = Field(default=None)
