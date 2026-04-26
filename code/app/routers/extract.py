@@ -60,7 +60,7 @@ async def extract_resume(
     logger.info(f"[{request_id}] Text length after cleaning: {len(clean_text)}")
 
     # Inference
-    profile, confidence = run_mock_inference(clean_text)
+    profile, confidence, sections = run_mock_inference(clean_text)
     profile = sanitize_profile(profile)
     logger.info(f"[{request_id}] Inference done with confidence: {confidence}")
 
@@ -79,6 +79,10 @@ async def extract_resume(
 
     debug_payload = None
     if debug:
-        debug_payload = debug_output(parsed.text, clean_text, profile)
-
+        debug_payload = {
+            "raw_text": parsed.text,
+            "cleaned_text": clean_text,
+            "detected_sections": sections,
+            "final_profile": profile,
+        }
     return ExtractResponse(profile=profile, metadata=metadata, debug=debug_payload)

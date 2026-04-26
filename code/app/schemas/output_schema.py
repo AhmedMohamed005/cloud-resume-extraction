@@ -25,4 +25,4 @@ class ExtractionMetadata(BaseModel):
 class ExtractResponse(BaseModel):
     profile: CandidateProfile
     metadata: ExtractionMetadata
-    debug: Optional[dict[str, Any]] = Field(default=None)
+    debug: Optional[dict] = None
