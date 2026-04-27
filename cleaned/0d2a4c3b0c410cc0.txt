@@ -1,0 +1,41 @@
+First Last
+SQL Server Developer
+Bay Area, California +1-234-456-789 + professionalemail@resumeworded.com linkedin.com/in/username
+SQL Server Developer with 10 years of experience developing applications and administering information and
+database systems. Key achievements: executed database defragmentation and reformed SQL queries, improving
+database performance and booting speed by 75 . Generated 3 data warehouses using SQL Server Integration
+Services to fortify and deterge transactional data from 200 sources.
+RELEVANT WORK EXPERIENCE
+Resume Worded, New York, NY 2017 Present
+SQL Server Developer
+e Accomplished 30 improvement in the performance of every ETL/SQL and online component, ensured apt
+response and data reliability by adhering to stern service level agreements.
+e Executed database defragmentation and reformed SQL queries, improving database performance and
+booting speed by /5 .
+e Generated 3 data warehouses using SQL Server Integration Services to fortify and deterge transactional
+data from 200 sources.
+Resume Worded Exciting Company, San Francisco, CA 2015 2017
+MS SQL Developer
+e Formulated 800+ ETL packages using SSIS and converted data from Oracle sources to MS SQL.
+e Devised 10 onsite databases and sustained 20 databases, thereby decreasing production costs by 12 and
+heightening productivity using data modeling techniques.
+Growthsi, San Francisco, CA 2013 - 2015
+Junior NET Developer
+e Created 40+.NET websites with 100 client contentment and on-time finalization, three weeks on the job..
+e Marshaled the development of 15 database projects for one of the company's largest clients with prompt
+delivery and 15 at budget completion.
+e Designed and enforced a Dynamics CRM solution for all 50 call centers, employing ASP.NET framework
+with 99 uptime.
+Resume Worded Exciting Company, San Francisco, CA 2011 - 2013
+Software Engineer
+e Designed internal websites for agents and management, saving an average of S8K in labor costs weekly.
+e Installed over 70 Linux servers and virtualized environments using Docker, Hyper-V, and Amazon Web
+Services.
+e Interpreted 180 designer compositions from PSD format and produced interactive HTML5 web simulations,
+utilizing CSS3, Javascript, ReactJUS, and plugins.
+EDUCATION
+Resume Worded University, New York, NY 2011
+Bachelor of Science Computer Science
+SKILLS
+Technical Skills: P /SQL (Advanced), Tableau (Experienced), CSS, Javascript, AJAX, ASP NET MVC, C#, JQuery
+Languages: English (Native), Spanish (Fluent), Japanese (Conversational)

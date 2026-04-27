@@ -1,0 +1,41 @@
+Robert Smith Phone (223) 456 78 99
+Ernall: (nfotiywikre sume, corn
+A Website wan cwilkre swine, car
+Senior Sql Developer Linkedin: Hinkedin.com/qwikresume
+Address 1737 Marshyille Road, Alabarna
+SUMMARY
+S++ years of experlence SQL Server Administration, Developrnent Database Design in Production
+Development Test environments with Microsoft SQL SERVER 2014, Experience working with
+SzZbit, 64-bit M5 5QL Server Custered and Standalone Server Environment. Handful experience
+outstanding knowledge on High,
+SKILLS
+Transact-SQL, Microsoft SS15, Microsoft SSAS, Microsoft SSMS, Microsoft SSRS5, Microsoft SQL
+Server, Oracle, .NET, Data Warehousing Tools, Stored Procedures And Triggers,
+WORK EXPERIENCE
+Senior Sql Developer
+Capital One -jume 2014 - 2020
+ Responsibilities Created Stored Procedures, Triggers, Views Functions for applleation.
+ Migrated the legacy Databases in SQL Server 2000 to SQL Server 2005 using SSIS,
+- Wrote T-SQL staternents for retrieval of data involved In performance tuning of TSQL queries
+and Stered Procedures,
+- Trouble sheeting of Reports by crass checking Report Layouts, Stored Protedures and SSIS
+Packages.
+ Developed several Complex Reports using SQL Server Reporting Services (SSRS),
+ Created Ad-hoc Reports, DrilkDown Reports, Pivot and Tabular Reports.
+ Upgraded SQL Server 2000 DTS Packages to S518 for uploading various formats of files
+databases MS 5QL Server 2005 Using SQL Server Integration Services (S515).
+Senior Sql Developer
+Delta Corporation - 2013 - 2014
+ Responsibilities Installed and configured SQL Server 2005/2008 on the server and cllent
+machines, provide conmections and manage databases.
+ Created and maintained various databases for Production, Developrnent Servers using MS
+SQL Server 2005/2008,
+ Planning the location of data, Indexes, and Transaction log files on the disk,
+- Useof DECC Utilities to maintain the consistency and Integrity. of each database in the
+production server
+ Resolvedlocking and blocking issues,
+- Tuning the Production server to get the performance Improvement,
+ Running Index tuning wizard for optimal query performance.
+EDUCATION
+BS in Computer Sclence- 2005(Baker - Flint. Ml)
+ This Frew Aesunes Timp late is the copyright of Qwikresume com. Usui uke res

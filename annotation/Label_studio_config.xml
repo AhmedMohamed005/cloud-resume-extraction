@@ -1,0 +1,73 @@
+<!--
+Label Studio NER Configuration for Resume Annotation
+=====================================================
+Paste this into: Project Settings → Label Config → Code
+
+Labels and what they cover:
+  NAME        — Candidate's full name only (not job titles)
+  SKILL       — Technical skills, tools, frameworks, languages, methodologies
+  EDUCATION   — Degree name, institution name, field of study
+  EXPERIENCE  — Job title, company name, employment period
+  DATE        — Standalone dates and date ranges
+  LOCATION    — Cities, states, countries (optional — add if you want them)
+
+Annotation rules (read before you start):
+  1. ONLY label the entity itself — not surrounding words.
+     RIGHT: [Python]SKILL and [React]SKILL
+     WRONG: [Python and React]SKILL
+
+  2. Multi-word entities: select ALL words together.
+     RIGHT: [New York University]EDUCATION
+     WRONG: [New York]EDUCATION  University
+
+  3. Be consistent — if you label "Python" as SKILL in resume 1,
+     label it in EVERY resume. Inconsistency hurts the model more
+     than having fewer examples.
+
+  4. Job titles go under EXPERIENCE, not NAME.
+     RIGHT: [Senior React Developer]EXPERIENCE at [Accenture]EXPERIENCE
+     WRONG: [Senior React Developer]NAME
+
+  5. OCR noise — if a word is clearly garbled beyond recognition,
+     skip it. Don't label noise.
+
+  6. Name: only the candidate's name at the top of the resume.
+     If you're not sure which line is the name, check the email line
+     above or below it for context.
+-->
+
+<View>
+  <Labels name="label" toName="text">
+    <Label value="NAME"       background="#2196F3" hotkey="n"/>
+    <Label value="SKILL"      background="#4CAF50" hotkey="s"/>
+    <Label value="EDUCATION"  background="#FF9800" hotkey="e"/>
+    <Label value="EXPERIENCE" background="#9C27B0" hotkey="x"/>
+    <Label value="COMPANY"    background="#F44336" hotkey="c"/>
+    <Label value="DATE"       background="#795548" hotkey="d"/>
+    <Label value="LOCATION"   background="#607D8B" hotkey="l"/>
+  </Labels>
+
+  <Text name="text" value="$text" granularity="word"/>
+</View>
+
+<!--
+Keyboard shortcuts (set above with hotkey=):
+  n = NAME
+  s = SKILL
+  e = EDUCATION
+  x = EXPERIENCE
+  c = COMPANY
+  d = DATE
+  l = LOCATION
+
+Workflow per resume:
+  1. Read the whole text once to understand the layout
+  2. Label the name first (line 1 or 2, usually)
+  3. Label all skills (scan the skills section + mention in experience)
+  4. Label education entities (degree, institution)
+  5. Label experience entities (job title, company, dates)
+  6. Submit and move to next
+
+Target per session: 10-15 resumes (about 45-60 minutes)
+Total needed before first training run: 50 resumes minimum
+-->

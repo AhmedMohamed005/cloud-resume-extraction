@@ -1,0 +1,46 @@
+Personavinie jill Van Beest
+@ 505-918-0381
+ Jilivanbeest@gmail.com SQL Developer, OCA
+@ linkedin.com/in/jillvanbeest
+rs) twitter.com/jillvanbeest OCA certified SQL developer with 3 years of experience, seeking to use proven Oracle and
+PL/SQL skills to improve data management at CyrusOne. Delivered 10 DB projects at GNG
+ Soft Skills on time and 15 under budget. Freed up 50 hrs/mo at PinkSky Tech through back-end
+automation.
+Collaboration
+ecccee e Experience
+Expert
+2016-07 - SQL Developer
+Communication 2018-08
+Gamma Nexus Group
+eeeee Led development of 10 database projects for customers. Completed
+EXBErE projects on time and an average of 15 under budget, with high customer
+Problem Solving reviews.
+eeee Used dialogue-mapping to gather requirements to 98 customer
+Advanced satisfaction.
+ Hard Skills apts O3 SQL Developer
+2016-06 PinkSky Tech Worldwide
+Orade Designed and created 3 onsite databases. Maintained a group of 25
+eeeee databases. Through automation, improved efficiency 15 , freeing up 50
+Expert labor hrs/mo.
+PL/SQL Wrote scripts to automate software updates, saving 3 programmer
+ecccece hours/mo.
+Expert 2014-06 - SQL Developer Experience
+SSIS Development 2015-05 Various
+eeeeo Created a restaurant management database. Included functionality to
+Expert handle all food and beverage inventory. Saved manager an estimated 400
+Database Architecture Ree orth:
+ Integrated database functionality into a sales website for tee shirts and
+eccce a a
+hats.
+Expert
+ Education
+2010 - BS in Computer Science, Mohave Community College
+2014 Pursued a passion for database architecture coursework.
+ President, Bighorn Decoders Computer Club.
+ Certificates
+OCA - Oracle Database SQL Certified Associate
+ Publications
+Article on SQL injection published in Oracle Blogs
+Article on Common Table Expressions published In WebAppers
+ Awards
+Recipient, Most Valuable Tech Employee 2016, Gamma Nexus Group

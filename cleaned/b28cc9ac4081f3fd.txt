@@ -1,0 +1,36 @@
+William Dorsey
+Hilla Orsey
++1 (270) 366 4076 william@hiration.com wwwiinkedin.com/william Boston, MA
+SUMMARY
+4+ years experienced React Developer with hands-on experience in identifying web-based user interactians
+along with designing implementing highly-responsive user interface components by deplaying React
+concepts. Proficient in translating designs wireframes into high-quality code, and writing application
+interface cade via Javascript and ReactJS workflows. Adept at monitoring maintaining frontend
+performance and troubleshooting debugging the same to balster overall performance.
+EXPERIENCE
+Jan '18 React Developer
+- Present Riverwell Technologies, Boston, MA
+ Identified web-based user interactions and developed highly-responsive user
+interface components via React concepts
+ Translated designs wireframes into high-quality code and wrote application
+interface code via JavaScript following Reacts workflows
+ Identified web-based user interactions and developed highly-responsive user
+interface components via React concepts
+Jan 16 Frontend Developer
+-Dec'l Technovation Inc., Boston, MA
+ Monitored and improved front-end performance by 15 and documented
+application changes worked on updates
+ Developed the latest user- facing features using React jsand built reusable
+components front-end libraries for future use
+ Optimized components for maximum performance across avast array of web-
+capable devices and browsers
+ Determined the structure and design of web pages based on user requirements and
+balanced functional aesthetic designs
++ Created features to enhance the user experience while ensuring that the web design
+is optimized for smartphones
++ Employed'a variety of languages such as HTML and CSS to write create user-
+friendly web pages
+SKILLS
+UI Designing Coding Application Designing Wireframe Design Webpage Designing
+Debugging Front-end Architecture Performance Improvement Feature Designing
+Webpage Optimization Project Delivery Client Surviving Graphic Designing

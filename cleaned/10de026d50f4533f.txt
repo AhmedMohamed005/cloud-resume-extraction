@@ -1,0 +1,43 @@
+Robert Smith Phone (123) 456 78 99
+Ernall: (nfotiywikre sume, corn
+Website wan cwilkre swine, car
+PL/SQL Develo per Linkedin: Hinkedin.com/qwikresume
+Address 1737 Marshyille Road, Alabarna
+SUMMARY
+PL/SQL Developer with 4+ years of extensive experience as an Oracle, PL/SQL Developer with ETL
+experience, Expertise in Software Development Life Cycle(SDLC) of client Implementations
+including requirements gathering, business analysis, system configuration, design, development,
+testing, technical documentation, and support. Strong experience In providing technical
+documentation and status reports of the applications as per the requirernent.
+SKILLS
+SQL, PL/SQL, XML, UNIX Shell Scripting, Perl Scripting C, C++, Perl Programming Oracle Tools'GUI
+Forms
+WORK EXPERIENCE
+PL/SQL Developer
+The Vanguard Group - November 2015 - Present
+ Developing cornplex database processes with PL/SQL containing batch or ETL functionality,
+ Developing and enhancing an existing DataMart In an OLAP schema.
+ Requirernents gathering, design, development, testing, and documentation:
+- Designing logical and physical ERD diagrams, process flow diagrams, or related data
+processing documentation.
+- Leveraging Oracle 109/119 features to their fullest on a large-scale mult-terabyte systern,
+ Assisting the Decision Support team members including OBAs, database developers,
+requirements analysts, and others, In understanding data and meeting user requirements,
+ Providing production deployment and production support as needed,
+Oracle PL/SQL Developer
+ABC Corp - 2014-2015
+ Participated in project work groups with Subject Matter Experts and stakeholders ta
+understand data specific needs.
+ Responsible to analyze, design, develop, troubleshoot, and Implement, standard and customs
+processes In Oracle application,
+ Researched, tested, bullt, and coordinated the conversion and/or Integration of mew products
+based on requirements.
+ Worked with other developers and business users to provide complete solutions.
+ Wrote programs using various languages and tools including, SQL, PLSQL, Oracle Forms,
+Reports, Forms Personalization, SML Publisher Reports:
+ Ongoing performance tuning. on SQL PL/SQL programs,
+- Malritalnéd a repasitory for allin-house ane ard party software/eusternizations and
+documentation,
+EDUCATION
+Bachelors - (2010)
+ This Prem Aiesunes Timo late is the copyright of Qwikresurme com. Ussqgie urbe Bras

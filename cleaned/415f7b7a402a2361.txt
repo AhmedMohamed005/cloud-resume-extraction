@@ -1,0 +1,62 @@
+Robert Smith Phone (223) 456 78 99
+Ernall: (nfotiywikre sume, corn
+Website wan cwilkre swine, car
+Sql Database Developer Linkedin: Hinkedin.com/qwikresume
+Address 1737 Marshyille Road, Alabarna
+SUMMARY
+Over 9 years of DBA experience on Data Design, Development and Administration on SQL Server
+27014, 2012, SQL Server 2008-R2, 2008 and 2005 systern In OLTP/OLAP environment. Experience
+in Oracle Database and Adrninistration AND Development database. Expert in RDBMS concepts
+and constructs to design. relational databases model and Implementation as per business needs,
+SKILLS
+Creating database triggers for use In automation, Maintaining data quality and overseeing
+database security,
+WORK EXPERIENCE
+Sql Database Developer
+ABE Corporation - March 2012 - February 2014
+
+ Installed and configured MS SQL Server and Clients.
+
+ Created and managed schema objects such as tables, views, clusters, indexes, procedures,
+triggers and maintained Referential Inte arity.
+
+ Performed Data mloration (import Garp export BCP) from Text to SQL Server.
+
+- Managed Disk space, memory and User connections,
+
+ Established DR sites using log shipping and Wrote dynamic stored procedures for moving
+Databases from production server to DR server.
+
+ Performed query tuning and reduced response ime by 60 ,
+
+ Performed query plans. and enforced Indexing Ine@ach and every query
+
+Sql Database Developer
+Delta Corporation - 2011-2012
+
+ Project Student Management System (SMS) SMS isa web based software that manages day to
+day operation for schools.
+
+- Worked with T- SQL to create tables, build stored procedures, bullding and maintaining 5515
+packages, and designing ac-hoe reports for our cllent to manage student data and provide
+capabilities for registering students, grading, tuition payments ane to perform other related
+tasks,
+
+ Used AGILE/ SCRUM methodology to lriplerment the application,
+
+ Developed physical data models using E-Draw and created DDL seripts to create database
+schema and database objects,
+
+ Besigned and implemented felational database rmanagernent system (RDBMS) using MS SQL
+Server 2008R2,
+
+ Normalized and De-normalized tables and maintained Referential Integrity by using Tlagers
+ancl Prirnary and Foreign Keys.
+
+ Used T-SQL scripts to create new tables, develop complex stored procedures, views, triggers
+and user defined functions.
+
+EDUCATION
+Master of Sclance in Materials Selence - August 2011(State University of New York - Stony Brook,
+NY)
+ This Frew Aesunes Timp late is the copyright of Qwikresume com. Usui uke res

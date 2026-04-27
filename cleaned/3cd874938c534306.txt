@@ -1,0 +1,31 @@
+3190 HUELS VILLE, CHICAGO, IL
+PHONE
++1 (555) 947 7715
+EXPERIENCE REMPEL AND SONS 05/2020 present
+Houston, TX // Senior SQL Developer
+e Advanced knowledge of decision and intelligence systems concepts, and database structures
+such as ETL, normalization, datamarts, fact tables, dimensions, views, and star schemas
+e Experience with performance tuning and optimization in a Snowflake Data Warehouse
+ Confident and proactive self-starter, skilled in taking initiative, assessing requirements,
+coming up with plans, and taking the lead in making plans reality
+e Proactive self-starter, skilled in taking initiative, assessing requirements, coming up with
+plans, and taking the lead in making plans reality
+SCHOEN INC 11/2014 12/2019
+Houston, TX // T-SQL Developer
+e Has knowledge of standard concepts, practices, and procedures within a particular field
+ Completes the tasks on time and with queality
+e Provides status updates to team lead
+e Implements changes in production
+e Good understanding of Database Design, Integrity and optimization process
+e Experience in managing SQL Server databases, configuring and maintaining database servers
+and processes
+e Experience in tuning the performance of servers and databases
+EDUCATION UNIVERSITY OF MISSOURI -COLUMBIA
+Bachelor's in Computer Science
+SKILLS Good understanding of SQL and Oracle system tables and SQL DMV
+e Strong experience with Agile methodologies
+e Knowledge and understanding of SDLC, with a strong preference for Agile experience
+e Skill for writing reusable functions, views and database objects
+e Excellent written/verbal communication, presentation, and listening skills
+ Understanding of fundamental design principles for building a scalable application
+e Perform tuning of ETL processes and SQL query tuning techniques

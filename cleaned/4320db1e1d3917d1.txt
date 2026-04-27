@@ -1,0 +1,35 @@
+Marko Bogdanovski
+ ah L5 Engineer - React Vue NodeJS Go
+66 Asaweb developer with 7 years of experience, I specialize in building SaaS
+applications. My core competency lies in end-to-end complete management of new
+9 Belgrade, Serbia project development, with a focus on custom-tailored apps and services for
+ mrbogdanovski@gmail.com businesses.
+Work Experience
+fe) Team Lead
+Elemental January 2022 July 2023
+ Managing frontend goals and epics, ensuring the timely completion of key milestones.
+ Conducted thorough testing and implemented robust solutions, resulting in reliable updates that met user requirements.
+ Acted as a mentor to the members of the Dev Team, providing guidance and feedback, assessing their levels, and creating growth
+tasks.
+ca Frontend Architect
+Elemental + June 2021 January 2022
+ Worked closely with the CTO to define objectives and align them with the company's strategic vision.
+ Effectively conveying the company's vision to the Design Team and fostering a shared understanding of the product roadmap led
+to a reduction in design rework and an increase in the number of diverse design solutions, tripling its output. In extension, overall
+productivity in the company went up by 20 .
+ Developed intuitive and visually appealing user interfaces, contributing to an enhanced user experience and improved customer
+satisfaction.
+ Full Stack Developer
+Meone + July 2018 January 2022
+ drafted and finalized statements of work, outlining project scope, deliverables, and timelines, ensuring clear expectations and
+smooth project execution.
+ Wrote and maintained comprehensive project documentation, including technical specifications, user manuals, and
+troubleshooting guides, facilitating knowledge transfer and ensuring the long-term maintainability of the projects.
+ Hosting Platform Developer
+SBB Serbia BroadBand July 2016 June 2018
+ Successfully maintained and enhanced the functionality of the Hosting Platform, ensuring stable and reliable services for millions
+of users.
+ Played a key role in the development of proprietary features and services for the Hosting Platform, contributing to the expansion of
+its ecosystem.
+ Acquired expertise in cross-domain session handling, ensuring smooth and secure user experiences across different domains and
+services.

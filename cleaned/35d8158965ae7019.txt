@@ -1,0 +1,33 @@
+Resume Customer
+ 
+Street Address, Coty, Seance ZF
+RBR-BRR-SRER + cmnaikainddrees com
+Senior SQL Developer, DBA and Data Modeler
+Experienced SQL developer and administextor with extensive project management experience. Proven
+record of contribution and aiaccessful completion af vital, enterprise-level SQL projects ina demanding
+financial services environment. Outsianding supervisory skills, capable of motivating and leading team
+maeribers. Developed or assisted with development of many mapor internal SQL applications and projects.
+Drives bottom-line results using a strategic hands-on approach. Understands the synergies of technubogy,
+Peociss Improvement, husiness operations, and strategic planting. Consistently exesecls project goals
+with high precision and efficiency.
+Skills and Areas of Expertise
+ Microaon Windows Server + Microsoft Team Foundation Server Queet SQL Spotlight
+ SQL Server 2008 (RI Rp Microsoft Visual Studio 2010 Repliweb
+ SQL Server 201M 2000/7.0 Microsoft Visual Source Safe 8QL Litespeed
++ SQLServer Reporting Services + Cit, Visual Basic, NET, Cae # Executive Lendership
+ SQL Server Integration Services + ERWIN, MYSQL, ASM) + Project Management
+ SQL Server Analysis Services + 891 Compare + Process provements
+Professional Experience
+Bank of America, Calabasas, CA 200 Present
+Vice President, Senior Technical Manager
+Responsible for key reporting operutions within Enterprise Change, Technology and Operations
+management using Microsolt SQL Server. Designed and developed a metrics reporting aystem ta
+aggregate all discoverable hardware and software information deployed across the enterprise from various
+sources such aa Runbook, Maxieno and Enventory. Created monitoring tools and processes to monitor
+database storage and file space usage.
+Managed team of six to ight sssociates responsible for managing hundreds of SQ databases for the
+secondary markeling division. Played a key role in directing strategy and daiabase design, Ensured
+reliability and availability of critical data through eonfiguestion, database optimisation, mirroring,
+deplovment in NAS and SAN environments and centralized backups. Secured dutubases utilizing best
+peattices and developed a proprietary ehfuscation systen to scrub customer sensitive date before release
+lo development and testing environments.

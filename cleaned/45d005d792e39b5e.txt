@@ -1,0 +1,64 @@
+Oracle PL/SQL Developer Phone: (123) 456 78 99
+L/ Q P Email: info@qwikresume.com
+Website: www.qwikresume.com
+ROBERT SMITH Linkedin:
+linkedin.com/qwikresume
+Address: 1737 Marshville Road,
+Alabama.
+Objective
+Oracle PL/SQL Developer with over 2 years of programming experience as an Oracle PL/SQL
+Developer in Analysis, Design, and Implementation of Business Applications using the Oracle
+Relational Database Management System (RDBMS). Involved in all phases of the SDLC (Software
+Developrnent Life Cycle) from analysis, design, development, testing, implernentation, and
+maintenance with timely delivery against aggressive deadlines.
+Skills
+Oracle 10g/11g (SQL, PL/SQL, Stored Procedures, Triggers), MS SQL SERVER DB2, Teradata, MS
+Access. ETL Tools: Informatica (Power Center AB Initio And SQLLoader.
+Work Experience
+Oracle PL/SQL Developer
+Discover Financial Services - january 2014 - june 2015
+
+- Involving in the full development cycle of PLanning, analysis, design, development, testing,
+and implementation.
+
++ Designing logical and physical data models for star and snowflake schernas using Erwin.
+
+ Created and modified SQL PLus, PL/SQL and SQL Loader scripts for data conversions.
+
+ Developed and modified triggers, packages, functions and stored procedures for data
+conversions and PL/SQL procedures to create database objects dynamically based on user
+inputs.
+
++ Wrote SQL, PL/SQL, SQL PLus programs required to retrieve data using cursors and exception
+handling.
+
+ Creating indexes on tables to improve the performance by eliminating the full table scans and
+views for hiding the actual tables and to eliminate the complexity of the large queries.
+
+ Coordinating with the front-end design team to provide them with the necessary stored
+procedures and packages and the necessary insight into the data.
+
+Oracle PL/SQL Developer
+ABC Corp - 2013 - 2014
+
+ Involved in the continuous enhancements and fixing of production problerns.
+
+ Generated server-side PL/SQL scripts for data manipulation and validation and materialized
+views for remote instances.
+
+ Developed PL/SQL triggers and master tables for automatic creation of primary keys.
+
++ Completed application coding assignments that meet provided technical specifications and
+end-user requirements,
+
+ Participated in the design process that generates application functional and technical
+specifications.
+
++ Documented the application design specifications and implementation procedures to improve
+application quality and reuse of code,
+
+ Assisted in the creation of unit, integration, function, and performance test scripts to improve
+application quality and ensure fulfillment of requirements.
+
+ This Free Resume Template is the copyright of Qwikresume.com. Usage
+Guidelines

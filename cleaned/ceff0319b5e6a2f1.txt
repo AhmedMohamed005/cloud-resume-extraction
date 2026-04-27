@@ -1,0 +1,37 @@
+Robert Smith Phone (123)-456 78 99
+Ernall: (nfotiywikre sume, corn
+Website wan cwilkre swine, car
+Junior Sql Server Developer Linkedin: Hinkedin.com/qwikresume
+Address: 1737 Marshville Road, Alabama
+SUMMARY
+Responsible for supporting the lead developer with maintenance of our software, management of
+our server infrastructure, backups, data migrations for client onboarding, diagnose system issues
+with our technical Support team and other technical projects,
+SKILLS
+Management, organizing.
+WORK EXPERIENCE
+Junior Sql Server Developer
+ABC Corporation -january 2012 - December 2012
+ Identifies and understands business needs during requirements gathering to effectively
+design, develop, test, and deploy reports or applications,
+- Stress test ancl optirnizes the systern for efficlency In a distributed database,
+ Analyzes Internal processes and make recommendations for automated workflow processes
+with eventual Implementation.
+ Proposes technical solutions, new application design, process flows.
+- Builds custarn data lriports. as required,
+ Troubleshoots and problern solve SQL database issues.
+ Implements and tests software/server upgrades as needed to gain better funetionality.
+junior Sql Server Developer
+Delta Corporation - 2008-2012
+ Create stored procedures, views, functions, tables, arid ensure their stability, reliability, ard
+performance,
+ Design, develop, and maintain SSR5 reports based on user requirements.
+- Write and optirnize SQL staternents for data access and retention.
+ Jest databases for performance, fine-tune when necessary
+ Collaborate with developers on database design, query tuning, and schema refinement
+ Respond to feedback from users regarding performance and work with developers to Improve
+the performance of queries and indexes.
+ Tune TS OL queries and stored procedures to Improve performance and sustainability,
+EDUCATION
+Bachelor's of Engineering
+ This From es ume Template is the copyright of Qwikresume. com. Usain Gusbde lines

@@ -1,0 +1,48 @@
+. .
+Letitia Taman ee _ 
+Oracle PL SQL Developer Oracle PL/SQL Developer with 1 year of experience in analyzing, designing,
+and implementing database solutions. Proficient in developing optimized
+and efficient PL/SQL code for diverse business requirements. Collaborative
+ @ letitiataman@gmail.com team player with strong analytical and problem-solving skills, committed
+X. (671) 856-4434 to delivering high-quality results and contributing to project success.
+@ 1234 Evergreen Lane, Seattle, WA Demonstrated experience in tuning SQL queries, creating database objects,
+98101 and working with Oracle tools. Eager to contribute to a dynamic and
+innovative work environment, further develop technical skills, and create
+value for the organization.
+EDUCATION
+Bachelor of Science in Information EMPLOYMENT HISTORY
+Technology with a specialization _ _ _ _
+in Oracle PL/SQL Development at Oracle PL SQL Developer at Microsoft Corporation, WA
+University of Washington, Seattle, May 2023 - Present
+WA Developed and optimized a critical database system that increased
+Aug 2017 - May 2022 query performance by 45 , resulting in a 30 reduction in server load
+Relevant Coursework: Database and improved user experience for over 10,000 Microsoft employees.
+Management Systems, SQL and + Successfully migrated legacy Oracle databases to the latest Oracle 19
+PL/SQL Programming, Oracle Database version, ensuring seamless integration and reducing maintenance
+Administration, Data Warehousing, costs by 25 .
+Database Design and Modeling, Spearheaded a team of 5 developers in the design and
+Performance Tuning, Advanced PL/SQL implementation of a complex PL/SQL-based reporting system, which
+Techniques, and Oracle Application streamlined data analysis and reporting for Microsoft's global sales
+Express. team, increasing efficiency by 35 .
+ Junior Oracle PL SQL Developer at Amazon Web Services, WA
+Aug 2022 -Mar 2023
+LINKS Developed and optimized a critical database system that improved
+ . query performance by 40 , resulting in increased efficiency for over
+linkedin.com/in/letitiataman 500 end-users across various departments within the company.
++ Successfully migrated legacy Oracle PL/SQL applications to AWS,
+SKILLS reducing infrastructure costs by 30 and decreasing response times
+a by 25 for key business processes.
+PL/SQL Led a team of junior developers in the design and implementation of
+eS anew inventory management system, which increased data accuracy
+SQL Loader by 20 and streamlined warehouse operations,
+ee CERTIFICATES
+eS Oracle Database SQL Certified Associate
+Performance Tuning ue 2021
+ -_ Oracle PL/SQL Developer Certified Professional
+Oracle Forms Apr 2020
+Database Triggers
+a MEMBERSHIPS
+LANGUAGES Oracle Academy
+International Oracle Users Group (IOUG)
+English
+Russian

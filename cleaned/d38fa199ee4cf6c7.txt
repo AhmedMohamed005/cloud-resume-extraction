@@ -1,0 +1,36 @@
+NIHAR RANJAN SAHOO E-Mail: nihar0808 @gmail.com
+Mobile :( India): (+91) 8018319781
+(+91) 8637269489
+Primary Skills : PL/SQL, Oracle Forms Report Developer and UNIX Shell Scripting
+Secondary Skill : Oracle Application Developer
+Total Experience : 3.8 Years
+Present company : Tata Consultancy Service(TCS)
+Current Location : Bangalore
+PROFESSTIONAL PROFILE:
+ Master in Computer Application (MCA) with excellent curricular and professional history.
+ 5.8 Years of experience in IT having skills in SQL,PL/SQL, Oracle Forms Reports
+and Application Maintenance with UNIX Shell Scripting
+ My greatest strength is my dedication, commitment towards my work and ability to handle
+multiple roles simultaneously.
+ Having more than 2 years of experience as a Part time Sr. Lecturer in Aptech Computer
+Education, Jharkhand.
+VITAL PART:
+ Involved in all phases of the SDLC (Software Development Life Cycle) from analysis,
+design, development, testing, implementation and maintenance with timely delivery against
+aggressive deadlines.
+ Design, Development and Maintenance of Oracle Forms and Reports,
+ Creating Libraries, Menus, Hierarchical Trees in Oracle Forms. Developed different types
+of Reports (Matrix, Master-Detail, Letter, etc).
+ Created database objects Like Tables, Views, Materialized Views Refreshing technique,
+Triggers, Synonyms, Constraints, DB-link, Global Temporary Table (GTT) and Function
+based Index (FDI).
+ Expertise in application development using Oracle 91/10g/11g/12c -PL/SQL, SQL PLUS,
+TOAD, SQL LOADER.EXTERNAL TABLE,UTL File
+ Effectively made use of Table Functions, Indexes, Table Partitioning, Collections,
+Analytical functions
+ Proficiency in writing complex SQL: Joins, sub-query, co-related sub-query, nested
+queries. Unions. Analytical Functions. and Cursors. Writing complex queries in a
+Conventional way as well as in ANSI standards.
+ Proficiency in writing complex PL/SQL: Stored Procedures, Complex Functions, sub
+program, Packages, Error handling, Export Import schema. Export Import of Text
+fiels / csv files, Collections, Oracle Utilities. RefCursor.

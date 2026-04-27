@@ -1,0 +1,50 @@
+MICHEL GOODWIN
+EEE
+38089 Kutch Ford, Detroit, MI + +1 (555) 286 1388
+WORK EXPERIENCE
+SENIOR SQL SERVER DEVELOPER 05/2016 - PRESENT
+
+Boston, MA
+ BSc in Computer Science or an IT related discipline
+ Excellent knowledge of SQL performance tuning
++ Considerable knowledge of SQL Server 2008-2012 (R2 environment)
+ Good understanding of SSIS, SSRS, SSAS
+ An excellent working environment in the city centre, ideal for transport links
+ Pluralsight and MSDN subscription
+ Relaxed and friendly atmosphere with casual dress policy
+ Design and enhance relational data models for high transaction OLTP
+SQL SERVER DEVELOPER 07/2009 - 12/2015
+Los Angeles, CA
++ Design and enhance Star Schema/Dimensional data models for Data warehouse/OLAP environments
+ Modifies, as necessary, existing data conversion routines and designs, develops, and tests new data conversion routines to meet customers 
+conversion requirements using technologies including, but not limited to: T-SQL, 5815, C#, VB.Net
+ File Transfer Protocols (SFTP, NDM, etc...)
+ Create DTS packages and jobs to monitor, backup, import/export data and data warehouse extracts
+ Review peer database design and code
+ Work on conversion of structured and non structured data
+ Participate in the definition, documentation and application of our Coding and Naming Standards
+WEB APPLICATION / SQLSERVER DEVELOPER 10/2003 - 06/2009
+Philadelphia, PA
+ Provide support to developers and/or testers to resolve technical problems with data and/or databases
+ Experience in supporting SQL Server-based .NET applications
+ Experience in assisting business analysts our business consumers in the modeling their data needs
++ Drive matters to resolution with a strong focus on system/ process improvement, execution of business objectives, and stakeholder
+satisfaction
+ Responsible for writing reports, query routines, and designing new applications
+ Data mining, data analysis, develops reports and queries for production, finance, sales, ete
+ Works with ERP structure and data to drive reports and application via SQL server
+ Analyzes technical and business requirements and translates them into system specifications
+ BS in Computer Science, Information Systems, or IT related field
+EDUCATION
+UTAH STATE UNIVERSITY - OREM EDUCATION CENTER 1998 - 2003
+Bachelor's Degree in Computer Science
+PROFESSIONAL SKILLS
+ Related experience which demonstrates a skillset that includes the technical and collaborative soft skills
+ Strong designing, development and troubleshooting skills required along with good oral and written communication skills Required 3
+Years
+ Experience developing database processing logic with T-SQL with strong debugging skills
++ Experience developing database processing logic with T-SQL with strong debugging skills on large datasets
+ Experience developing database processing logic with T-SQL with strong debugging skills on large datasets
+ Demonstrated strong problem solving and technical skills 
+ Strong follow-through, ability to drive to closure and resolution of complex system issues. Excellent problem identification, analysis and
+solving skills

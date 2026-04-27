@@ -1,0 +1,49 @@
+KRISTOPHER TILLMAN
+217 Camryn Extensions, New York, NY +1(555) 232 174
+WORK EXPERIENCE
+SENIOR ORACLE PL / SQL DEVELOPER 08/2016 - PRESENT
+Dallas, TX
+ Experience in Distributed Multi-tier Application Development, Database Design, Data processing, Data Warehouse and Support mainly
+with Oracle technology on different platforms
++ Strong knowledge in writing SQL Queries that varies from single table simple SQL s to multiple table complex SQLs
+ Proficiency in Relational Database Management Systems (RDBMS)
+ Document concise design, development, and testing processes for assigned projects
+ Good understanding of data modeling, processing and warehousing techniques
+ Exceptional analytical and debugging skills
+ Coordinate with DBAs for tasks such as creating/rebuilding indexes, adding partitions, and analyzing tables
+ Proficiency using TOAD or equivalent developer tools
+ Experience using source control applications such as Perforce
+PL / SQL DEVELOPER 06/2009 - 05/2016
+Boston, MA
+ Informatica experience
+ Deep knowledge of SQL and best practices
+ Demonstrate intermediate (to advanced) understanding of data modeling, schema design and ETL processes
+ Strong knowledge of relational databases, Data Warehouse and business Intelligence solutions
+ Work in a group or team environment.Search Jobs US
+ Experience working with Oracle databases, preferably version 11.5.10 or later release
+ Demonstrated ability to performance tune queries and reports for maximum performance
+ Database design and implementation experience
++ Employee is occasionally required to stand for long periods of time
+JUNIOR PL / SQL DEVELOPER 04/2003 - 12/2008
+Phoenix, AZ
+ Perl programming and Microsoft SQL/T-SQL experience
+ Receives data from numerous sources using varied file record layouts
+ Performs a wide variety of edits and validations
+ Accepts high volumes of data
+ Retains flexibility to accommodate changes in organizations and accounting standards
++ Good Understanding of Oracle Exadata platform and DBMS concepts
+ Experience as a Data Modeler/Sr, Oracle database developer role
++ Experience with Python
+EDUCATION
+TRINITY UNIVERSITY 1997 - 2002
+Bachelor's Degree in Computer Science
+PROFESSIONAL SKILLS
+ This skillset does not require NoSQL, Big Data or Hadoop experience, the ideal skillset would be a hands on PL/SQL experienced with
+ETL using Oracle RDBMS
+ Excellent/good communication skills, co-ordination skills, self-motivated, process oriented
+ Eager to learn new skills and improve existing skills
+ Excellent communication skills are essential to gather and impart information effectively within the department and also to the wider
+business
+ Leading skills and experience with passing on knowledge to junior developers, mentoring or similar
++ Trong web interface development skills using the following technologies. JavaScript, HTML, CSS and XML
++ Strong Database programming skills in PL/SQL. on Oracle database

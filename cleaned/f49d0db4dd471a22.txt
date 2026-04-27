@@ -1,0 +1,29 @@
+880 Freida Tunnel, Chicago, IL
+PHONE
++1(555) 826 7270
+EXPERIENCE
+Corwin, Prohaska and Bartoletti
+Boston, MA // Senior SQL Developer // 12/2019 present
+e Translate business requirements and use cases into functional applications
+e Together with team design, build, and maintain efficient, reusable, and reliable code
+e Ensure the best possible performance and quality of reporting solutions
+e Identify bottlenecks and bugs, and prepare solutions to mitigate and address these issues
+e Help maintain code quality, organization, and test automation
+Jast, Barrows and Nolan
+Boston, MA // T-SQL Developer // 04/2015 07/2019
+e Hands-on experience with C#
+e .NET Core, ASP.NET
+e JavaScript, HTML5, JQuery, CSS3
+e Proven work experience as a SQL Developer
+e Strong understanding of the SQL Server Optimizer
+e In-depth understanding of using SQL Execution Plans to troubleshoot SQL
+EDUCATION
+Academy of Art University
+Bachelor's in Computer Science
+SKILLS
+e Demonstrated experience with systems and applications development projects supported by the team including system
+components, functionality, interfaces, data flows, and business rules
+e Experience working with data modeling and design tools (ERwin)
+e Experience in SSIS and creating master and child packages, package configurations, logging and in using variables and
+expressions in packages
+e Knowledge of CDC culture, mission, and IT environment

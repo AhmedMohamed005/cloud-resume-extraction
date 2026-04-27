@@ -1,0 +1,41 @@
+Oracle PL/SQL Developer
+Phone: (0123)-456-789 Email: info@qwikresume.com Website: Qwikresume.com
+SUMMARY
+About 6+ years of programming experience as an Oracle PL/SQL Developer in Analysis, Design
+and Data Modeling (Logical and Physical). Development of client/server, multi-tiered applications
+using the Oracle Relational Database Management System (RDBMS), SQL and PL/SQL on
+different platforms like Windows NT/2000/XP, UNIX, and Linux. Well experienced working with
+Waterfall Agile Methodologies. Experienced in Tuning Queries for better performance with a
+large volume of data.
+CORE COMPETENCIES
+SQL LOADER, SQL Developer, SQL Plus, SQL Developer, Data Modeler, Oracle Forms 6i/9i/10g,
+Oracle Reports 6i/9i/10g, Crystal Reports, ETL,SSIS.
+PROFESSIONAL EXPERIENCE
+Oracle PL/SQL Developer
+Wendys Company - January 2015 March 2016
+Key Deliverables:
+ Created technical design for the back end PL/SQL based on business requirement
+documents and the functional system design.
+ Creation of database objects like tables, views, synonyms, materialized views, stored
+procedures, packages using Oracle tools like PL/SQL developer.
+ Coordinated with the front end design team to provide them with the necessary stored
+procedures and packages and the necessary insight into the data.
+ Involved in updating procedures, functions, triggers. and packages based on the change
+request.
+ Built complex queries using SQL and wrote stored procedures using PL/SQL.
+ Used ref cursors and collections for accessing comPLex data resulted from joining of a
+large number of tables.
+ Involved in moving the data from flat files to staging area tables using SQL loader.
+Oracle PL/SQL Developer
+ABC Corp - 2010-2015
+Key Deliverables:
+ Participated in client business needs discussions and translate those needs from a data
+perspective into technical executions.
+ Got all design and coding reviewed and approved by the concerned authorities.
+ Planned and executed the testing and implementation of major systems.
+ Participated in sprint ceremonies.
+ Participated in both peer design and code reviews.
+ Provided production support through monitoring, notification and job/service management.
+ Participated in vendor review and selection where appropriate.
+2259 Oak Street, Old Forge, New York, 13420
+ This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines

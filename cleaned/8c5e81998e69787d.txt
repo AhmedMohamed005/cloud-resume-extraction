@@ -1,0 +1,41 @@
+Paulette Warrick
+Baldwin, NY 11510
+ (516) 208-3683, (516) 425-5906
+warrick. paulette@gmail.com
+SUMMARY
+SQL Developer with experience using SQL Server Management Studio and Visual Studio
+2008 having over 12 years of progressive experience in software development which
+invelved working in all stages of the system development life cycle. Organize and analytical
+with excellent oral and written communication and interpersonal skills adapting rapidly to
+changing environments, to ensure bottom line success. Effective in resolving issues that
+surfaced complemented as being meticulous and creative showing detail to specification
+and design.
+TECHNICAL SKILLS
+Database Management Systems:
+Microsoft SQL Server 2008, Microsoft SQL Server 2000, VSAM, DB2, MySQL5, Oracle 9i
+Software:
+MS SQL Server 2008 Integration Services (SSIS), MS SQL Server 2008 Reporting Services
+(SSRS), Microsoft Office, Foxpro 5.0, Crystal Reports 11, PeopleSoft
+Tools:
+SQL Server Management Studio, Microsoft Visio, Business Intelligence Development Studio,
+Turnover
+Programming Languages:
+COBOL, CICS, JCL, REXX, PHP 5.0, Ajax, CSS, HTML/XHTM, JavaScript
+Operating Systems:
+UNIX, OS/400 V5R4, Windows 2000/XP/7
+SetFocus, LLC. Baldwin, NY Nov 2010 - Dec 2010
+SQL Master's Program
+The SetFocus SQL Server Master's Program Is an intensive, hands-on, project oriented
+program where participants gain knowledge and valuable experience putting the SQL Server
+skill set to use ina simulated work environment.
+
+ Created numerous simple to complex queries involving self joins, correlated
+subqueries, CTE s and XML techniques for diverse business requirements. Tuned and
+optimized queries by altering database design, analyzing different query options, and
+indexing strategies.
+
+ As part of a team, analyzed the business requirements and systematically designed a
+database fer an online-mevie (DVD/Blu- Ray) rental company. Employed best
+practices in creating a complete schema including tables, relationships, stored
+procedures, views, clustered and non-clustered indexes and triggers, and
+implemented the import and expert of data using XML and SSIS.

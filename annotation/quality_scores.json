@@ -1,0 +1,1129 @@
+{
+  "01ed595ac1ec3d01.txt": {
+    "garbled_ratio": 0.017,
+    "headers_found": [
+      "experience",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1556,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "0b8431fc6fb166a7.txt": {
+    "garbled_ratio": 0.021,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills"
+    ],
+    "has_email": true,
+    "text_length": 2685,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "0bf2b665bd649340.txt": {
+    "garbled_ratio": 0.029,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2359,
+    "scramble_ratio": 0.049,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "0d2a4c3b0c410cc0.txt": {
+    "garbled_ratio": 0.006,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2511,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "1076ef061f6a52ca.txt": {
+    "garbled_ratio": 0.013,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills"
+    ],
+    "has_email": true,
+    "text_length": 2296,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "10de026d50f4533f.txt": {
+    "garbled_ratio": 0.032,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2399,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "13c1dacb945a57ff.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1910,
+    "scramble_ratio": 0.067,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "1c349271eedaf797.txt": {
+    "garbled_ratio": 0.015,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1884,
+    "scramble_ratio": 0.043,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "1d2ae903897437bb.txt": {
+    "garbled_ratio": 0.007,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3729,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "1db50f608a121e7c.txt": {
+    "garbled_ratio": 0.007,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1995,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "2144a62b22df6d3e.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2674,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "27507e61e9c9ae01.txt": {
+    "garbled_ratio": 0.012,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2702,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "2bc564efc074e0e3.txt": {
+    "garbled_ratio": 0.005,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1484,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "2c0afbdfe3a55467.txt": {
+    "garbled_ratio": 0.013,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1579,
+    "scramble_ratio": 0.05,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "35d8158965ae7019.txt": {
+    "garbled_ratio": 0.006,
+    "headers_found": [
+      "experience",
+      "skills"
+    ],
+    "has_email": false,
+    "text_length": 2320,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "3b767e728cb81780.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2777,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "3c07907dd3698f69.txt": {
+    "garbled_ratio": 0.029,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1866,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "3cd874938c534306.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills"
+    ],
+    "has_email": false,
+    "text_length": 1784,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "3d170bca88979741.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "experience",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1401,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "4094863af64f7135.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1761,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "415f7b7a402a2361.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2533,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "427e879b5c43aabe.txt": {
+    "garbled_ratio": 0.009,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3045,
+    "scramble_ratio": 0.075,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "4320db1e1d3917d1.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2286,
+    "scramble_ratio": 0.229,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "440dd8625cf95cb2.txt": {
+    "garbled_ratio": 0.009,
+    "headers_found": [
+      "experience",
+      "education",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1560,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "45d005d792e39b5e.txt": {
+    "garbled_ratio": 0.037,
+    "headers_found": [
+      "experience",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2734,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "4c3c957bd4b24e9a.txt": {
+    "garbled_ratio": 0.034,
+    "headers_found": [
+      "experience",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2350,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "51add2385d68c820.txt": {
+    "garbled_ratio": 0.029,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2365,
+    "scramble_ratio": 0.049,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "525dba467c3afb2e.txt": {
+    "garbled_ratio": 0.011,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1869,
+    "scramble_ratio": 0.042,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "52c19f83853bda31.txt": {
+    "garbled_ratio": 0.016,
+    "headers_found": [
+      "experience",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1087,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "54ce418dfdaf6a86.txt": {
+    "garbled_ratio": 0.003,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2793,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "5820c13d7b830cc2.txt": {
+    "garbled_ratio": 0.007,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary"
+    ],
+    "has_email": false,
+    "text_length": 2775,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "601b3a12bc0a5465.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "education"
+    ],
+    "has_email": true,
+    "text_length": 1493,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "few section headers (['education'])"
+    ],
+    "verdict": "REVIEW"
+  },
+  "65721c533d9f6a0a.txt": {
+    "garbled_ratio": 0.005,
+    "headers_found": [
+      "experience",
+      "education",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2851,
+    "scramble_ratio": 0.02,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "68a339fb43e36c2b.txt": {
+    "garbled_ratio": 0.006,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1197,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "694cfbc7ea87471c.txt": {
+    "garbled_ratio": 0.013,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2536,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "69cc783769335b0f.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [],
+    "has_email": false,
+    "text_length": 67,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "few section headers ([])",
+      "no email found",
+      "very short (67 chars)"
+    ],
+    "verdict": "SKIP"
+  },
+  "6d6e14e36508916e.txt": {
+    "garbled_ratio": 0.015,
+    "headers_found": [
+      "education",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2222,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "84d136f732964f44.txt": {
+    "garbled_ratio": 0.004,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1940,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "867d7742ca581710.txt": {
+    "garbled_ratio": 0.03,
+    "headers_found": [
+      "experience",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2172,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "8c5e81998e69787d.txt": {
+    "garbled_ratio": 0.017,
+    "headers_found": [
+      "experience",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2116,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "8e416d6e2ed34722.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "experience",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2313,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "8e7609c97f0f35d5.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1823,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "90bc97516f91c967.txt": {
+    "garbled_ratio": 0.012,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2869,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "93316cb7d7d5265a.txt": {
+    "garbled_ratio": 0.018,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1906,
+    "scramble_ratio": 0.044,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "9954f5f94f622aa2.txt": {
+    "garbled_ratio": 0.003,
+    "headers_found": [
+      "experience",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2637,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "99a78f6710b4fa0c.txt": {
+    "garbled_ratio": 0.015,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1901,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "a35679647a5b386d.txt": {
+    "garbled_ratio": 0.004,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3862,
+    "scramble_ratio": 0.086,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "a5e0c99bf06fda6a.txt": {
+    "garbled_ratio": 0.019,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2241,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "a63e17378e08d803.txt": {
+    "garbled_ratio": 0.015,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2383,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "a8b5a616c4fcec58.txt": {
+    "garbled_ratio": 0.004,
+    "headers_found": [
+      "experience",
+      "education",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 3176,
+    "scramble_ratio": 0.036,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "a8f5bdd78a6af6b9.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 483,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "a9ee7fdd9a8494be.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2469,
+    "scramble_ratio": 0.062,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "b28cc9ac4081f3fd.txt": {
+    "garbled_ratio": 0.016,
+    "headers_found": [
+      "experience",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1991,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "b54cc4f2688ad22b.txt": {
+    "garbled_ratio": 0.012,
+    "headers_found": [
+      "experience",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2430,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "b81f20712b9b136a.txt": {
+    "garbled_ratio": 0.008,
+    "headers_found": [
+      "experience",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2781,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "b91bda8f9a7985cc.txt": {
+    "garbled_ratio": 0.024,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2174,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "c0d7e57d0e0284ad.txt": {
+    "garbled_ratio": 0.02,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2908,
+    "scramble_ratio": 0.061,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "c15c0eba54c793cb.txt": {
+    "garbled_ratio": 0.005,
+    "headers_found": [
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1541,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "c375b34b8c6b1f1f.txt": {
+    "garbled_ratio": 0.011,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2553,
+    "scramble_ratio": 0.042,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "c46292a0800dd52b.txt": {
+    "garbled_ratio": 0.002,
+    "headers_found": [
+      "experience",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3145,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "ceff0319b5e6a2f1.txt": {
+    "garbled_ratio": 0.0,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1974,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "d38fa199ee4cf6c7.txt": {
+    "garbled_ratio": 0.018,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2078,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "d68855ed993cbf7a.txt": {
+    "garbled_ratio": 0.02,
+    "headers_found": [
+      "experience",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2912,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "d88c0e5a3ffb20d3.txt": {
+    "garbled_ratio": 0.027,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2861,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "db8ccd8ff907f076.txt": {
+    "garbled_ratio": 0.009,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2458,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "dc29ae385e9844cf.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2557,
+    "scramble_ratio": 0.037,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "dd8d63d113498a13.txt": {
+    "garbled_ratio": 0.02,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1009,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "dda7d3efe1edf9cc.txt": {
+    "garbled_ratio": 0.033,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2884,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "e08caf8c5089474d.txt": {
+    "garbled_ratio": 0.011,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2544,
+    "scramble_ratio": 0.036,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "e28e92dade8237f3.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3247,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "e3c9e190e68442f3.txt": {
+    "garbled_ratio": 0.023,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 2777,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "e3e631ed781c3d62.txt": {
+    "garbled_ratio": 0.011,
+    "headers_found": [
+      "skills",
+      "summary",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 3150,
+    "scramble_ratio": 0.0,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "e7987bd5d20611d0.txt": {
+    "garbled_ratio": 0.037,
+    "headers_found": [
+      "experience",
+      "education",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1337,
+    "scramble_ratio": 0.033,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "f16d8b947feb8aea.txt": {
+    "garbled_ratio": 0.019,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 3100,
+    "scramble_ratio": 0.082,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "f49d0db4dd471a22.txt": {
+    "garbled_ratio": 0.01,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 1397,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  },
+  "f4c834d8f877eaac.txt": {
+    "garbled_ratio": 0.018,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": true,
+    "text_length": 1596,
+    "scramble_ratio": 0.05,
+    "issues": [],
+    "verdict": "READY"
+  },
+  "f7049a7904f965bf.txt": {
+    "garbled_ratio": 0.011,
+    "headers_found": [
+      "experience",
+      "education",
+      "skills",
+      "work"
+    ],
+    "has_email": false,
+    "text_length": 2588,
+    "scramble_ratio": 0.0,
+    "issues": [
+      "no email found"
+    ],
+    "verdict": "REVIEW"
+  }
+}

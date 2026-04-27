@@ -1,0 +1,40 @@
+FIRST LAST
+SQL Data Analyst
+New York City, NY 10000 - first.last@resumeworded.com : + 1 (212) 123-4567
+PROFESSIONAL EXPERIENCE
+RESUME WORDED New York, NY 2019 - Present
+SQL Data Analyst
+e Established connections between legacy system and Discuz forum software using MySQL Server.
+e Migrated data from legacy system to Discuz using SQL Server, completing 99 records mapping.
+e Designed a database schema containing over 30 tables such as users, groups, threads and posts.
+e Maintained a 99.5 quality level for over a year by demonstrating expertise in SQL data analytics.
+e Worked on 4000 text messages drawn from crisis simulations to process and analyze all data.
+GROWTHSI New York, NY 2017 - 2019
+SQL Data Analyst (2018 - 2020)
+e Maintained the integrity of the SQL database, reporting any issues to the database architect.
+e Assisted in mining data from the SQL database that was used in several significant presentations.
+e Prepared the existing SQL platform for 10+ upgrades installed as soon as they were released.
+e Assisted in creating and presenting 20 informational reports for management based on SQL data.
+e Helped in making changes to SQL database that decreased the risk of data corruption by 50 .
+Backend Developer/Data Analyst (2017 - 2018)
+e Created an election forecast model that was utilized in the 14th General Election using Azure ML.
+e Developed 30+ Exception Based Reports for quality assurance, maintaining overall service quality.
+e Saved 1M paper print yearly by automating the business process for early market-ready impact.
+RESUME WORDED New York, NY 2019 - Present
+Data Analyst
+e Worked with excel to track and map account equity among a portfolio of some 1000 clients.
+e Supported Business Development by increasing the 25 time deposit balance in campaigns.
+e Completed 2 large-scale national political sentiment surveys involving 50,000 responses.
+e Ledateam to achieve a 99 accuracy level utilizing expertise in leadership and collaboration.
+EDUCATION
+RESUME WORDED UNIVERSITY New York, NY
+Master of Science in Business Analytics 2013-2017
+RESUME WORDED UNIVERSITY New York, NY
+Bachelor of Science in Data Analytics 2013-2017
+ADDITIONAL INFORMATION
+e Certifications: Analytics Certification (2016) Customer Analytics Certification (2014)
+e Technical Skills / Software: Math, Statistics, SQL, Ruby, Shell, Python, R, SSIS, SSRS, Data Modeling,
+Data Warehousing, ETL, MapReduce, Hadoop, Pig, Open Refine, Tableau, Apache Spark, SSAS,
+HTML, Javascript, .Net framework, C#, C++, Web scraping, Microsoft Excel, Statistical methods
+(regression analysis, psychometrics, factor analysis, etc.)
+e Volunteer Community Involvement: Growthshi Volunteer Activity and Outreach (2017)

@@ -1,0 +1,57 @@
+Name Surname
+SQL Developer
+ 87 gmail.com (+-) Adress
+SQL Developer who is ambitiously working with SQL. Worked and successfully delivered 5+ projects
+during six months till deadline. Created more than 2500 SQL queries, program functions and stored
+procedures according to developers request by working with different databases (Oracle, MySQL,
+PostgreSQL). Optimized and Tuned scripts several times by looking at execution plan and changing
+queries that caused to decrease cost. Worked with various SQL client tools such as PL/SQL
+Developer, DBeaver, Workbench. Enjoy working as a team member as well as independently.
+Combined patience, determination, and persistence to troubleshoot client issues.
+WORK EXPERIENCE
+
+The State Agency on Mandatory Health Insurance 2022 -Present
+SQL Developer
+
+ Generated 2500+ complex SQL queries, program functions, stored procedures facilitate app
+developers job that enable to increase efficiency and speed of applications
+
+ Created procedures with dynamic SQL queries for Emergency Medical Care project that
+enable to create more general purpose, flexible applications dynamically at runtime.
+
++ Established OTP database for TEBIB application project and originated database documents
+which help to learn database structure within a week.
+
+ Successfully delivered data cleaning and data mining of three-year pilot project (HR module
+in hospitals) in two months with a team includes product owner, business, and application
+developers.
+
+ Work on tuning and optimization of existing SQL queries in Blood Bank Project also suggest
+hew ones for performance improvements, that led to 80 + increase in saving cost.
+
+ Maintain comprehensive support to senior colleagues to ensure performance, security and
+availability of 19 databases by working with different databases (Oracle, MySQL,
+PostgreSQL)
+
+Maire Tecnimont, TCM KT JV 2020 - 2022
+Junior Project Engineer (QA/QC)
+
++ Data analysis of 4 different RFI logs in Excel by utilizing advanced excel tools
+
+ Mastering the Pilot Quality Management application and implementing it for the first time
+
+ Accomplish Project quality assurance system management, inspection and among 10
+departments and meeting with clients / contractors
+
+Maire Tecnimont, TCM KT JV 2019-2021
+Development Program
+
+ Took 6 months Italian Language Course and presented company in Azerbaijan
+
+ Engaged in Haydar Aliyev Oil Refinery (HAOR) modernization and Reconstruction Project
+and Covered 14 disciplines which are Project Management, Quality Assurance/Control,
+Project/Cost Control, Subcontractors Administration Management, Project/Process
+Engineering, Civil, Mechanical, Electrical, Piping, Health, Safety and Environmental,
+Procurement, Human Resources, Finance and Administration
+
+PETKIM PetroChemical Holding (Turkey) 2019

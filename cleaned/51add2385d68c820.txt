@@ -1,0 +1,41 @@
+Jackson Miller
+Senior React Developer Agile methods UI/UX Design
+help@enhancv.com linkedin.com Philadelphia, Pennsylvania
+Summary
+Senior Developer with over 9 years of comprehensive experience in developing high-performing React applications and Agile methodologies.
+Transformed legacy applications at Accenture, reducing load times by 30 and led an Agile development team at IBM, accelerating project delivery
+speed by 20 . Passionate about continual learning and keeping up with the newest tech trends.
+Experience
+Accenture Philadelphia,
+Pennsylvania
+Senior React Developer 2018 - Ongoing
+Led the frontend development for prominent client projects involving high-traffic web applications
+ Collaborated in the design of 5+ innovative UI features, resulting in 15 increase in user engagement
+ Transformed legacy applications to a clean, React-based infrastructure, reducing load times by 30 
+ Conducted code reviews, improving code quality and consistency across the team
+IBM Philadelphia,
+Pennsylvania
+Mid-Level React Developer 2015 - 2018
+Participated in designing and implementing user interface for several strategic projects
+ Worked in an Agile development team of 8 to deliver high-quality software under strict timelines
+ Integrated RESTful services into software solutions, improving response times by 25 
+ Spearheaded the adoption of automated testing, reducing bugs in production by 40 
+Deloitte Philadelphia,
+Pennsylvania
+Junior Developer 2012-2015
+Assisted with the development and maintenance of web applications
+ Contributed to the development of 3 strategic projects, each serving over 1M users
+ Documented techniques for handling common troubleshooting issues, reducing support tickets by 15 
+ Maintained and enhanced two large-scale applications, increasing performance by 20 
+Strengths
+Proactive Team Player Problem Solving Agile Development
+Leveraged interpersonal skills to Successfully resolved diverse and Managed multiple scrum teams,
+facilitate communication in a team of 10 complex technical issues, improving accelerating project delivery speed by
+developers, enhancing efficiency by 35 operational efficacy by 25 20 
+Education
+University of Pennsylvania Philadelphia,
+Pennsylvania
+Master's Degree in Computer Science 2010 - 2012
+Pennsylvania State University University Park,
+Pennsylvania
+Bachelor's Degree in Computer Science 2006 - 2010

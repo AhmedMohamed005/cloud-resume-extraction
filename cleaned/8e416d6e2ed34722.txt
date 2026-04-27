@@ -1,0 +1,56 @@
+SQL Developer
+
+Phone: 0123)456-789 Email: infoi@qwikrasume.com Website: Qwikrasume.cam
+CEE nn nnn
+SUMMARY
+Around 7 years.of professional experience in Design, Implementation Maintenance of OLTP 
+Data Warehouse systems, Data Technical Architecture, ETL processes, Business Intelligance
+and Enterprise Appiication Integration,
+ CORE COMPETENCI
+SQL, java, Business Analysis, ETL, Scum, Waterfall, S315, 35R5, Databases, Excel, Quality
+ Control, Quality Assurance, MySQL, Project Management, Data Analysis, CRM, Salesforce,
+Documentation, TFS, ADBMS.
+PROFESSIONAL EXPERIENCE
+SQL Developer
+ABC Corporation - October 2009 - November 2010
+Key Deliverables:
+
+ Extensively invalyed in Gathering mquiremants by holding meetings with users.
+
+ (Constructed context diagrams and daia-llow diagrams based on a description of a
+business process,
+
+ Analyzing the data model and identification of heterogeneous data sources.
+
+ (Constructed an extended entityrelationship diagram based on a narrative desorption aba
+business scenario.
+
+ (Created Transtormations using the SQL-seript to modify ihe daia betore loading into tables:
+
+ . Instalad-and Configured MS SQL Server 2008,
+
+ Migrated SQL Server 2005 data bases into SQL Server 2008.
+
+SQL Developer
+ABC Corporation - 2005 - 2009
+Key Deliverables:.
+
+ The aim of the Project. isto help ihe departments in their underwriting process from
+application through policy delivery, security, and controls, document retention which
+primarily includes-oading and rouling the submissions:
+
+ Responsibilities Created now database objects like Procedures, Functions, Packages,
+Triggers, Indexes and Views using T-SQL in Development and Production environment for
+SQL Server 2000 Actively participated in gathering of Requirement and System
+Specification,
+
+ DBeveloped-S OL Queries:to-fetch complex data from different tables in remote databases
+using joins, database links and formatted the results into reports and kept loos Worked on
+complex T-SQL statements, and implemented various codes and tunctions,
+
+ Installad, authored, and managed reports using SQL Server 215 Reporting Services
+Wrote Transact SQL utilities to generate table insertand update statements.
+
+ee
+2259 Oak Stree. Old Forge, New York, 13420
+ This Free Resume Template is the copyright of Qwikresume.com. Usage Guidelines

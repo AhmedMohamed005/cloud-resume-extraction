@@ -1,0 +1,50 @@
+Experienced Apex/PLSQL Database Developer
+fakeemail@example.com Washington, D.C.
+SUMMARY STRENGTHS
+Passionate Apex/PLSQL developer with experience in Object-Oriented Agile Development
+Analysis and Design seeking challenging role with AnaVation to provide Developed Agile processes
+innovative solutions to mission-critical customers. which helped reduce
+development time by 25 .
+EXPERIENCE Problem Solving
+Successfully resolved complex
+Apex/PLSQL Developer 2019 - 2022 database issues by creating
+: efficient PL/SQL scripts and
+TechB Solutions Chicago, IL queries.
+Developed complex APEX applications for Fortune 500 companies, resulting in :
+streamlined business processes and increased productivity. e Collaboration
+ Designed and developed multiple APEX applications, integrating with various Worked with cross-functional
+external systems resulting in improved data accuracy and faster reporting. teams to develop and deliver
+ Optimized SQL queries and utilized indexing techniques resulting in significant mission-critical applications.
+improvement in application performance.
+ Implemented Agile methodologies for software development resulting in
+increased team collaboration and faster delivery of solutions. SKILLS
+PLSQL Developer 2017 2019 Oracle Database - SQL - PL/SQL -
+ABC Financial Little Rock, AR APEX -
+Developed and maintained PLSQL modules for a large-scale customer management Object-Oriented Analysis and
+system, resulting in increased system efficiency and reduced maintenance costs. Design
+ Collaborated with cross-functional teams to gather requirements, design and
+develop PLSQL modules for the customer management system.
+ Developed and maintained ETL processes resulting in improved data accuracy
+and increased efficiency in data processing. ACHIEVEMENTS
+ Created automated scripts for database backup and monitoring, reducing et
+maintenance time by 30 . o Developing a High-
+Performance Database
+Database Developer 2015 - 2017
+Designed and developed a
+XYZ Healthcare Houston, TX high-performance database
+ that increased query speed by
+Developed and maintained database solutions for healthcare systems, resulting in 50 .
+improved patient care and reduced operational costs.
+ Developed and maintained Oracle databases, including data modeling, 2 Successfully Migrating
+performance tuning, and troubleshooting. Data
+ Designed and developed PLSQL procedures and functions for data processing
+and reporting, resulting in improved efficiency and accuracy. Successfully migrated a large
+ Implemented database security protocols and disaster recovery plans resulting amount of data to a new
+in improved data protection and system availability. database, minimizing
+downtime and ensuring data
+integrity.
+EDUCATION
+Bachelor of Science in Computer 2011 - 2015
+Science
+University of Texas at Austin Austin, TX
+Powered by 4, Ennancy www.enhancv.com

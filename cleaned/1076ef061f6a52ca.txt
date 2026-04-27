@@ -1,0 +1,40 @@
+123 YOUR ADDRESS
+city, STATE, ZIP CODE
+(XK )-RKM-KREK
+YOUR@EMAIL.COM
+SQL Developer with 8+ years of hands-on experience in developing database applications, as well as
+administering database and information systems. Possesses In-depth knowledge of database
+development, IT solutions, MS SQL Server, software development, business analysis, systems
+administration, process re-engineering, and management information services.
+Professional Experience
+VERITAS OPERATING CORP, Mountain View, CA
+SQL Developer, October 2017-Present
+ Drive stability, reliability, and performance by optimizing in-application SQL statements and
+design user-focused databases
+ Develop an ETL Database Model to carry out new procedures and create various database
+warehouse dimensions to accept ETL outputs
+ Gather requirements from business analysts, develop physical data models using Erwin, and
+create DDL scripts to design database schema and database objects
+e Perform database defragmentation and optimize SQL queries, improving database performance
+and loading speed by 70 
+e Lead the development of 12 database projects for one of the company s largest clients with on-
+time delivery and 13 under budget completion
+US TECHNOLOGY RESOURCES LLC, Aliso Viejo, CA
+SQL Developer, August 2012 September 2017
+ Utilized Joins and sub-Queries to simplify complex queries involving multiple tables while
+optimizing procedures and triggers to be used in production
+ Performed SQL, PL/SQL, and application tuning using multiple tools like EXPLAIN PLAN,
+SQL TRACE, TKPROF, and AUTOTRACE
+ Designed 4+ onsite databases and maintained a group of 25 databases, reducing production
+costs by 15 and boosting productivity using data modeling techniques
+ Wrote SQL queries to obtain data from multiple tables to spool into CSV format and provide
+extracts to business and users
+Education
+CONCORDIA UNIVERSITY IRVIN, Irvine, CA
+Bachelor of Science in Computer Science, July 2012
+Honors: cum laude (GPA: 3.7/4.0)
+Additional Skills
+ Database Development: MS Access, Database, SQL Stored Procedures, Table Scalar
+Functions, Ad-hoc T-SQL Queries, SQL SSIS packages, SQL Jobs, SSAS Cubes
+ Report Development: SQL Server Data Tools, SharePoint 2012 Website, Report Parameters 
+Datasets, Highly Visual and Graphic Dashboard Table Report Styles

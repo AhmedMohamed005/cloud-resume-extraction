@@ -1,0 +1,58 @@
+Lauren Holmes
+412733630026 Bo lauvren@hiration.com 9 Seattle, WA in. wewlinkedin.com/infauren
+React Developer
+SUMMARY
+B+ years experienced react development professional armed with hands-on experience in designing deploying highly responsive user
+interface components by using React concepts. Proficient in designing wireframes and converting them into high-quality codes to build
+Application interfaces via Javascript and ReacyS workiows. Adept at improving frontend performance by lécting debugging codes to
+boost overall performance white delivering maximum client satisfaction.
+KEY SKILLS
++ Application Development Wireframe Building Front-end Architecture UI Designing Debugging:
+ Performance improvement + Feature Designing + Webpage Designing Coding Webpage Optimization
+ Project Management Client Servicing Graphic Designing
+TECHNICAL SKILLS
+ React tools: React js, Redux, Flux, Webpack, Enzyme,
+ Front-end Development tools: Babel, NPM, Webgack,
+ Languages: (Query, JavaScript, CSS, HTML
+ Performance Testing Frameworks: jest, Mocha, ject
+PROFESSIONAL EXPERIENCE
+React Developer Aug '19 - Present
+Technofusion inc, Seattle, WA
+One Of lop 20 dipitey. agencies serving ecross the world with met-wonth of USO 20 bWNion
+Feature Development Application Optimization
+# Collaborate with front-end architects and updated 20+ applications te Improve performance by 15 
+ Designed and developed 50+ user-facing features via React s and built front-end libraries for continuous development
+ Tested and opimized 30+ REACT components for best. performance across every device and browser
+Ul Designing Application Development:
+ Supervised a team of 15 designers to design.and implement user Interface ideas in 45+ applications to improve procemtations
+ Analyzed client requirensents to reconstruct 10+ applications for better user experiance and improved business model
+Frontend Developer Jul 17 - Jul 
+Digital Minds Seattle, WA
+One of the top. web desigming companies in the 6S with o neq of 3k employees and revenues worth USE Sd million
+Project Management Graphic Designing
+ Minageda team of 10 developers handling 20+ client projects. and ensured their bug-free delivery before the deadline
+ Besigned prototypes and created high-quality visual elements for the. company's wth application
+Ul Designing Application Interface Development
+ Angled user requirements and developed 50+ responsive and functional Ul components via REACT concepts
+@ Built the application imerface code using JavaScript.and ReactJs based on the pre-made designs and wireframes
+Code Testing Debugging
+ Troubleshoot and debugged 10+ applications codes for smoith execution and improved stalatity
+ Beveloped and Tested front-end architecture along with the Ul concepts of 15+ websites to perform with 100 accuracy
+Web Developer Jun 15 - Jun 17
+Troy Infotech Seattle, WA
+iWieb devolooment company headquovtered int the US with ove 2k ettplopees ana servicing hundreds of Civents Ochoa she World,
+Webpage Designing Testing
+ Designed the structure and web pages layout as per the user requirements with 100 client savisfaction
+ Performed testing on 50+ applications to enhance their stabelny and scalability resulting im 30 business growth
+ Deployed 5 programming languages like HTML, C55, and JavaSeript to build attractive and user-friendly web pages
+Website Optimization Development
++ Developed reusable code and optimized 10+ websites of the company to improve speed and performance by 40 
+ Improved company's business website performance upto 30 by adding newfeatures and lunctionalities
+EDUCATION
+B. Tech. in Computer Science May 10 - May 14
+New York University New York, NY
+Mew Tork University one of the top universities (n dot US with S000 scholars cnet 200+ focotty memebers
+ GPA 32/40
+ Top 20 percentile of the class
+CERTIFICATIONS
+ Full-Stack Web Development with React Coursera Dec ld

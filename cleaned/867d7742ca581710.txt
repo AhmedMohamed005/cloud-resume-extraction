@@ -1,0 +1,59 @@
+Oracle PL/SQL Developer Resume
+Professional Summary:
+
+. Over 7 years of programming experience as an Oracle PL/SQL Developer in
+Analysis, Design and Implementation of Business Applications using the Oracle Relational
+Database Management System (RDBMS).
+
+. Involved in all phases of the SDLC (Software Development Life Cycle) from
+analysis, design, development, testing, implementation and maintenance with tmely
+delivery against aggressive deadlines.
+
+. Experience with Data flow diagrams, Data dictionary, Database normalization
+theory techniques, Entity relation modeling and design techniques.
+
+. Expertise in Client-Server application development using Orade 11g/10g/9i/8i,
+PL/SQL, SQL PLUS, TOAD and SQL LOADER.
+
+- Effectively made use of Table Functions, Indexes, Table Partitioning,
+Collections, Analytical functions, Materialized Views, Query Re-
+
+Write and Transportable table spaces.
+
+. Strong experience in Data warehouse concepts, ETL.
+
+. Good knowledge on logical and physical Data Modeling using normalizing
+Techniques.
+
+. Created Tables, Views, Constraints, Index (8 Tree, Bitmap and Function Based),
+
+. Developed Complex database objects like Stored Procedures, Functions,
+Packages and Triggers using SQL and PL/SQL.
+
+. Developed materialized views for data replication in distributed environments.
+
+. Excellent technical and analytical skills with clear understanding of design goals of ER
+modeling for OLTP and dimension modeling for OLAP.
+
+. Experience in Oracle supplied packages, Dynamic SQL, Records and PL/SQL
+Tables.
+
+. Loaded Data into Oracle Tables using SQL Loader.
+
+. Partitioned large Tables using range partition technique,
+
+. Experience with Oracle Supplied Packages such as DBMS_SQL,
+
+DBMS_JOB and UTL_FILE.
+
+. Created Packages and Procedures to automatically drop table indexes and create
+indexes for the tables.
+
+. Worked extensively on Ref Cursor, External Tables and Collections.
+
+. Expertise in Dynamic SQL, Collections and Exception handling,
+
+. Experience in SQL performance tuning using Cost-Based Optimization (CBO).
+
+. Good knowledge of key Oracle performance related features such as Query
+Optimizer, Execution Plans and Indexes.

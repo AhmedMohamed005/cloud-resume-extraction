@@ -1,0 +1,62 @@
+Shelli L. Ciaschini
+Shelby, NC 28152
+@ (704) 692-5150
+sclaschinig@aol.com
+SUMMARY
+Motivated and amtytious Database Developer with advanced expenence using SQL Server
+Management Studio 2005 and Visual Studio 2005. arm capable of leading and working with 
+team as well:as individually. 1 have the ability to accomplish tasks under minimal supervisian and
+direction, Hard worker with a desire to use updated SQL skills in tie feld to assist with achieving
+goals and abjectives.
+TECHNICAL SKILLS
+Programming Languages:
+Transact SQL, XML, COBOL-370, MVS/ICL, SQL, QMF, HTML, XHTML, CLCS(trained)
+Microsoft Technologies:
+SQL Server 2005 Reporting Services, Access, Word, Excel, Power Point, VB.Net
+Databases:
+Microsoft SQL Server 2000 / 2005, 082, VSAM, TSO/ISPF, ENDEVOR, STARTOOLS, SYNCSORT
+Operating Systems:
+Windows 98/2000/ P, Windows Server 2003
+Software:
+SQL Server Managenent Studio, Microsoft Visio, Micrason Office, Database Engine Tuning Advisor,
+SQL Server Profiler, CoolGen 6,0 workstation, loomla, Dreamweaver , Flash 
+SetFocus, LLC. Shelby, NC 8/08 - 11/08
+SQL Server Master's Program
+
+ Created numerous simple te complex queries Involving self joins, correlated subqueries and
+XML techniques for diverse business requirements, Tuned and optimized queries by altering
+database design, analyzing diferent query options, and indexing strategies.
+
+ As part of a team, analyzed the business requirements and systematically designed a
+database for an onling-movie (DVD/Blu- Ray) rental company. Employed best practices in
+creating a complete schema including tables, relationships, stored procedures, views,
+dustered and nan-clustered indexes and triggers, and implemented the impartatian and
+exportation of data using XML and SSIS.
+
+ As part of a team, created various neports according to the business requirements for the
+movie rental company. Individually authored, installed, deployed and managed reports
+using SQL Server 2005 Reporting Services for a library database.
+
+ + Individually designed a bank application according ta business requirements, and
+implemented robust stored procedures, functions, and triggers to implement required
+functionalities.
+
+ Developed 3 backup and recovery plan based on the data availability requirements af the
+library and on the potential impact of data loss on tte business after considering and
+analyzing the diferent backup and recovery strategies,
+
+ Designed database maintenance plans to set up core maintenance tasks to make sure that
+the database performs welll, is regularty backed up in case of system failure and is checked
+for inconsistencies.
+
+ Employed the Database Engine Tuning Advisor to analyze the performance effects of
+workloads and implemented its recommendations wherever appropriate.
+
+ Used the SQL Server Profiler tool to monitor the performance of SQL Server particularty to
+analyze the performance of the stored procedures.
+
+ Analyzed different high availability solutions and implemented database mirroring and
+replication,
+
+ Ad part of 6 team, established security policy using windaws domain accounts and
+implemented a security strategy to protect against threats and attacks.

@@ -1,0 +1,51 @@
+. . PROFILE
+Abigail Biwer 
+SQL Server Develo per Dedicated SQL Server Developer with 1 year of experience in designing,
+implementing, and optimizing database solutions. Proficient in T-SQL,
+5S1S, and SSRS, with a strong foundation in database administration and
+@ abigail. biwer@email.com performance tuning. Adept at collaborating with cross-functional teams
+X. (196) 296-2525 to deliver high-quality results and enhance overall system efficiency.
+Q 1234 Maple Street, Minneapolis, MN Demonstrates excellent problem-solving skills, attention to detail, and
+55401 commitment to continuous learning.
+EDUCATION EMPLOYMENT HISTORY
+Bachelor of Science in Information @ SQL Server Developer at JAMF Software, MN
+Technology with a focus on SQL May 2023 - Present
+Server Development at University Developed a robust database system for JAMF Software, MN that
+of Minnesota, Twin Cities, MN increased data processing efficiency by 40 , resulting in faster query
+Sep 2018 - May 2022 execution and improved overall system performance.
+Relevant Coursework: Database Implemented SQL Server performance tuning and optimization
+Management Systems, SQL Server techniques, reducing the frequency of server crashes by 30 and
+Development, Data Warehousing and significantly enhancing the stability and reliability of the system.
+Analytics, Advanced Database Design, Successfully migrated legacy data from multiple disparate sources
+Network Administration, and System into a centralized SQL Server database, consolidating and
+Integration. streamlining data management processes, and ultimately reducing
+data storage costs by 25 .
+@ Junior SQL Server Developer at Be The Match, MN
+LINKS Sep 2022 - Apr 2023
+: : ee Developed and optimized 50+ SQL queries, resulting in a 35 
+linkedin.com/in/abigailbiwer : eo :
+improvement in report generation time and enhancing the
+performance of the organization's database systems.
+SKILLS Successfully migrated 5 legacy databases to SQL Server, streamlining
+ooo data management processes and reducing maintenance costs by
+T-SQL 25 .
+ ooo + Played a key role in the development and implementation of a new
+ssis donor matching algorithm that increased match accuracy by 15 ,
+ leading to a higher success rate for bone marrow transplants.
+SSRS. Collaborated with cross-functional teams to design and implementa
+ JAS comprehensive data warehouse solution that consolidated data from
+SSAS various sources, improving data accessibility and analysis capabilities
+eT for the organization.
+PowerBl
+Azure SQL CERTIFICATES
+Database Optimization Microsoft Certified: Azure Database Administrator Associate
+ eeeoo Jun 2021
+Oracle MySQL Database Administrator Certified Professional
+LANGUAGES Mar 2020
+English
+SD MEMBERSHIPS
+Indonesian
+ Microsoft Certified Professional (MCP)
+Professional Association for SQL Server (PASS)
+HOBBIES
+Creating custom database applications

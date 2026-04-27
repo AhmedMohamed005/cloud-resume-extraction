@@ -1,0 +1,63 @@
+Aubrey Bonan
+SQL Developer
+Profile @ aubrey bonan@gmail.com
+ . (345) 858-2044
+Detail-oriented 5QL Developer with a year of experience in database 9 Seattle, WA
+management and system analysis. Proficient in designing, developing, and
+maintaining SQL servers and applying complex business logic. Demonstrated .
+skills in data analysis, data migration, and performance tuning, coupled with Education
+excellent problem-solving abilities. Committed to ensuring the efficiency and
+reliability of database systems. Bachelor of Science in Information
+Technology with a specialization
+. in Database Management at
+Employment History University of Washington, WA
+- Aug 2017 May 2022
+SQL Developer at Microsoft Corporation, WA Relevant Coursework: Database
+Apr 2023- Present Design and Programming, SQL
+
+ Successfully optimized SQL Server performance, resulting in a 30 Fundamentals, Data Warehousing,
+improvement in processing times across all applications used by the Database Administration, Data
+company. Structures, Network Security,
+
+ Developed and implemented a comprehensive database security Information Systems Management,
+protocol, reducing data breaches by 75 within the first year of its Business Intelligence, and Cloud
+implementation. Computing.
+
+ Leda team to design and launch a new customer relationship
+management system, improving data accuracy by 50 and increasing
+customer satisfaction scores by 20 . Links
+
+ Streamlined data integration processes for Microsoft's main product
+line, resulting in a 40 reduction in data errors and a 15 increase in linkedin.com/in/aubreybonan
+operational efficiency.
+
+Junior SQL Developer at Amazon Web Services, WA i
+Jul 2022 - Feb 2023 Skills
+
+ Successfully developed and implemented anew SQL database system for TSQL
+AWS's customer service division, resulting in a 30 improvement in data
+retrieval times and a 20 increase in system efficiency. PL/SQL
+
+ Led a team in the migration of over 100,000 records fram an outdated
+system to AWS's SQL Server, enhancing data consistency, integrity, and MySQL
+security. 
+
+ Optimized SQL queries and procedures, which reduced server response PostgreSQL
+times by 25 , significantly improving internal productivity and customer a ees 
+experience, SQLite
+
+ve Oracle Database
+
+Certificates ee
+Microsoft SQL Server
+
+Microsoft Certified: Azure Database Administrator Associate _ 
+
+Oct 2021
+
+Oracle SQL Developer Certified Professional Languages
+
+Apr 2020
+English
+
+Memberships Hindi

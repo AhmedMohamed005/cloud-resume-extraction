@@ -1,0 +1,62 @@
+Junior SQL Developer Phone: (het 455. 8 Se
+Emall: tnlotqwikresume.com
+Website: www wiles ume.cont:
+ROBERT SMITH Linked: linkedin com/quilresume
+Address: 1737 Marshville Road,
+Alabama
+Objective
+ Over 7 and hall years of strong experience with Demonstraicd success to the Database Design,
+Development and Deployment of large-scale enterprise applications. Expert in MS SQL Server suite
+of products like SSIS, SSAS and SSRS, Hands of expericnee on Database development in OLTP
+ Online Processing) and OLAP SSIS, SSHS and SSA5)
+Skills
+Sollware Development, SQL, Database Management, codereview, unit testing, dao, Oracle, Web
+ Services, ide, Business Development, aop, oop.
+Work Experience
+Junior SQL Developer
+Ace Parking - Scpiember 2013 - 2019
+
+ Design and deploy SSRS reports for visual prescutation of the data Developed T-SQL codes,
+ETL Processes to collect /eomsolidate data from a varicly of sources.
+
+ Developed parameterized dashboards and reporis with SQL Server Reporting Services (SSR5 .
+
+ Develop T-SQL code, stored procedures, views, anctions. and other dalabase objects to supply
+date needed for the reports.
+
+ Tntegrate data from various sources using SSIS, validate dala and create reports.
+
+ Responsible for developing and optimizing reporting solutions using SQL Server Reporting
+Services (SSK5) to author, manage, and deliver dynamic, interactive, drill-down web-based
+reports.
+
+ Used tools (Excel and SQL) to analyze, query, sort and manipulate deta according bo defined
+business rales and procedures.
+
+ Optimized the queries which were nanning slowly.
+
+SQL Developer
+ABC Corporation - 2009 - 2013
+
+ Technologies SQL Server 2008, BIDS Description As apart of the e-Governance initiative,
+Ministry of Commerce (MOC has entered into.a formal agreement with NSDL Database
+Management Limiied (NDMLI for csiablishing and managing a patlonwide Integrated solution
+for adminis tration of Special Economic Zones (SEZ) of India.
+
+ SEZ Online ts a total integrated solution offered by NDML for the administration of SEZ ta
+faciiiiate speedy processing of various transactions, transparency In activities by reducing
+physical Interface and using moder technology solutions of online electronic transection
+processing and payment
+
+ This development ts in collaboration with Infosys.
+
+- Responsibilities Created disaster recovery plan to restore SQL Server and databases hosted on
+the server Used SQL Profiler to monitor applications using SQL Server Perlorm periodic
+checking of databases with DBCC command for maintaining data consistency and integrity
+and rebuilt iidees.
+
+ SAN Storage Configuration for clusters servers Establish and maintain sound backup and
+recovery policies and procedures Review Database design and implementation and recommend
+Improvements Implement ar maintain database security create and maintain.
+
+OThis Eroe Resimic Template be the copyright of Guilresumecom, feage Guidelines

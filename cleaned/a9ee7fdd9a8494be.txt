@@ -1,0 +1,48 @@
+Chloe Martinez
+Software Developer React Native Java Expert 2
+@ help@enhancv.com @ linkedin.com
+9 New York City, New York
+SUMMARY
+An enthusiastic software developer with over five years of experience, possessing exceptional expertise in React Native, Java, and C#. Led major
+projects at top tech companies, boosting user engagement and productivity. Looking forward to applying proven skills to create efficient and user-
+friendly applications.
+EXPERIENCE
+Software Developer
+Google
+33 2018 - 2020 9 New York City, New York
+Developed and maintained software applications, focusing on usability and performance.
+ Spearheaded a project to revamp the user interface of a major product, leading to a 15 increase in user engagement.
+ Implemented a new bug tracking system which reduced the average amount of time to fix bugs by 20 .
+ Successfully migrated a major service to a cloud-based architecture improving system scalability.
+Software Engineer
+IBM
+ 2016 - 2018 @ New York City, New York
+Participated in the entire application lifecycle, focusing on coding, debugging, and troubleshooting.
+ Developed a new repository management system resulting in more efficient version control.
+ Optimized server side API code reducing the average API response time by 30 .
+ Created detailed documentation which improved overall productivity by 15 .
+Senior Software Engineer
+Microsoft
+33 2020 - Ongoing 9 New York City, New York
+Designed and deployed software solutions to meet business and user requirements.
+ Leda team to design a new architecture for a company-wide system, improving efficiency by 25 .
+ Managed and scaled team s AWS services, resulting in a cost reduction of 20 .
+ Increased system security by implementing advanced encryption measures.
+STRENGTHS
+ Problem Solving P Team Leadership
+Exceptional ability to solve complex problems through critical Led a team of 5 software developers at Microsoft, improving team
+thinking, evidenced by successful debugging of a complex software productivity by 20 .
+issue at Google.
+#. Adaptability
+Quick to adapt to new technologies and frameworks - mastered React
+Native within a month of its introduction.
+EDUCATION
+Bachelor of Computer Science
+New York University
+@3 2010-2014 9 New York City, New York
+Master of Engineering
+Columbia University
+3 2014-2016 @ New York City, New York
+SKILLS
+React Redux React Native C# Java WebAPI Java West Services/RestFull Services Spring Boot HTML
+JavaScript Cloud Architecture Server-side API

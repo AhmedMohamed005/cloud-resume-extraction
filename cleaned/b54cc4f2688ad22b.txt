@@ -1,0 +1,63 @@
+Phone: (123) 456 78 99
+SQ L Developer Email: Infoa@qwikres umescom
+Website www. qwikresurme.com
+ROBERT SMITH Linke:
+linkedia. corm/qwikresume
+Address: 1737 Marshville Road,
+Alabama,
+Objective
+Over 7+ years of working experience as a Data Modeler and Data Analyst with high proficiency in
+requirement gathering and data modeling Including design and technical knowledge, In the field
+of OLTP, Data Warehousing, OLAP and ETL Environment along with quick adaptability to new
+technologies.
+Skills
+SQL, Databases, T-Sql, Visual Studio, Visual Basic, , HTML 5, CSS3, SSRS, Collaboration, Problern
+Resolution, Data Warehousing.
+Work Experience
+SQL Developer
+ABC Corporation - November 2010 - April 2012
+
+ Created documents fortechnical amp: business user requirerneants during requirernents
+gathering sessions.
+
+ Designed Logical and Physical models of Relational Database.
+
+ Buillt strong relationships with key business and technology partners Inside and outside the
+platform and infrastructure team.
+
+- Worked on aggregate dimensions, late arriving facts and dimensions, staging tables and ODS,
+
+ Partnered withfinance, MIS teams and accounting to ensure the consistency and accuracy of
+data and reporting.
+
+- Worked In data mapping, enabling the extract, transform and loading of the data Inte target
+tables.
+
+- Data mapping documents between Legacy, Production, and User Interface Systems were
+developed,
+
+SQL Developer
+ABC Corporation - 2005 - 2010
+
+ MBM Company ls ajewelry company selling rings, necklaces and other jewelry far merand
+women,
+
+ They specialize in having personalized jewelry products with clients such as Walmart, Target,
+Kohls, JC Penny, 7th Avenue, HSN.
+
+ RESPONSIBILITIES Created new tables, written stared procedures for Application Developers
+and seme user defined functions Created SQL scripts for tuning and scheduling.
+
+ Involved In Migratlon.of databases of SQL Server 2000 to SQL Server 2005,
+
+ Performed data conversions from flat files Into a normalized database structure Created and
+managed users, roles and groups and handled database security Created Triggers to enforce
+data and referential Integrity Defined Check constraints, Business Rules,,
+
+- Handling Users/Loging User Rights Managing historical data from various heterogeneous data
+sources (Le,
+
+- Excel, Access) Environment SQL Server 2000 and 2005, PL/SQL:
+
+ This Free Resume Template isthe copyright of Qwikresume.com. Usage
+Suicdelines

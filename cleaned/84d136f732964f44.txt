@@ -1,0 +1,42 @@
+ead
+ he REACT DEVELOPER
+A SUMMARY 9 SKILLS
+3+ years experienced React developer with hands-on experience in JavaScript BEEBEBSB
+ole web-based ese along with design and developing React JS BEEBB
+ighly responsive User Interface. Redux Toolkit SEEB
+HTML BEBB
+ EXPERIENCE Tailwind CSS SEB88
+Python BEB
+React Developer
+Terralogic Software Solutions Limited ju/ 2020 - Present LANGUAGES
+ Developed and implemented frontend user interfaces using
+React Je English SEe88
+ Collaborated with UX/UI designers to create seamless and visually SEBB
+appealing web applications French
+ Worked closely with backend developers to integrate APIs and Arabic SE8
+ensure data flaw between server and client German BEB
+ Utilized Redux for state management in complex React applications
+ Conducted code reviews and provided feedback to ensure code EDUCATION
+quality and adherence to best practices
+ Implemented responsive designs to ensure optimal user experience Conjputer Sclence
+across different devices and screen sizes 5 P S Uni ,
+ Debugged and resolved issues related to performance, accessibility, al Jose State University
+and crossbrowser compatibility Jun 2016 - Jun 2020
+ Implemented unit tests and participated in integration testing to
+ensure software quality 
+e Stayed uptodate with the latest industry trends and best practices AWARDS
+in React.js development Rite Bae A d
+ Collaborated with team members and participated in agile oe f arene
+development processes Terralogic 2023-01-07
+ PROJECTS
+IMS Version-3
+Frontend React Developer jan 2022 - Present
+This is a4 test preparation project for the CAT and other management
+entrance examinations,where students can plan, learn, attempt mock
+tests and revise for various enterance exams.
+Work Experience
+@ Involved in designing UI using React,Tailwind CSS and Redux.
+ Developed and integrated screens for
+Login, Profile, Preparation,Plans and Classes
+Tatasteel Aashiyana
+Web Developer Dec 2020 - Dec 2021

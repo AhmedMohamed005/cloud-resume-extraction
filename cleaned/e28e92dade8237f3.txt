@@ -1,0 +1,52 @@
+First Last i
+7 - Albany, NY (Open to Remote)
+Entry-Level SQL Developer pa ase780
+Entry-Level SQL developer with 10 years of experience using data mining, business - email@resumeworded.com
+intelligence, and data visualization to drive growth. Skilled in turning data into actionable - linkedin.com/in/username
+insights, supporting business decisions, and improving operations. Key achievements: - github.com/resumeworded
+implemented security measures such as password protection and logon restrictions on 24
+production servers, reducing vulnerability to malicious attacks by 67 . Developed and
+Supported an RWec v.2 5g database application that produced a /0 increase in the SKILLS
+company's operational efficiency.
+WORK EXPERIENCE Technical Skills:
+- Data Modeling (Advanced)
+- Databases (Experienced)
+Entry-Level SQL Developer November 2015 Present Sesie Watenelie lig
+Resume Worded, New York, NY Dale analysis 
+- Indexing and reporting
+e Tested SQL servers and maintained the environment's integrity
+through regular updates, improving their reliability by 87 . Industry Knowledge:
+e Worked with a team of 16 developers to create an application that - Data Structures
+tracked the status of 10K open and closed cases - Microsoft SQL Server
+e Implemented security measures such as password protection and TSQL Stored Procedures
+logon restrictions on 24 production servers, reducing vulnerability to
+malicious attacks by 67 . HOSS aE
+e Developed ETL processes to load 46TB of data into a data warehouse XML .
+from over 1.5K sources in the first month of employment. Din ease
+- Javascript
+Database Programmer February 2013 October 2015 RUERY
+Growthsi, San Francisco, CA TE
+e Designed a CRM software that integrated business data between Dom Giciey vellise Ses ite
+RWdesk and SloBooks, increasing productivity for daily business Worded to sean -_ eine
+activities by 90 . before you send it off (its free and
+e Created a mAcrosoft Word add-in that allowed 10K users to publish proven to get you more jobs)
+directly into Manualdesk Inventor, saving RWEC 180 person-hours per
+yecils 7 EDUCATION
+e Modified tables and queries for enhanced tracking capability of an
+vegeta programmer hours by 45 and saving 21K in Resume Worded Diversity
+e Developed and supported an RWec v.2 5g database application that Pac Ielot ol Selence
+Computer Science
+produced a 70 increase in the company's operational efficiency. Boston, MA May 2010
+Database Assistant June 2010 January 2013 pwaras: Resume verted eaening
+Fellow (only 5 awarded to class), Dean's
+Resume Worded's Exciting Company, New York, NY List 2012 (Top 10 )
+e Created anew file system that tracked 7.8K active lead-generating
+web visitors, helping Growthsi to determine its effectiveness ina OTHER
+given area by 90 .
+e Developed simple database systems that assisted 4.3K users in filing - Microsoft Certified Solutions
+and retrieving documents, reducing clerical work by 87 . Developer (MCSD).
+e Devised custom queries for difficult reporting tasks increased report - Oracle Certified Professional.
+accuracy by 88 YoY. : eye seu Certified Solutions
+e Increased system efficiency by optimizing SQL queries for better pesecietaiMGSt)-
+performance, reducing data retrieval time by 79 with less than 3
+servers.

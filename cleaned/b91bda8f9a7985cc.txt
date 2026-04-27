@@ -1,0 +1,45 @@
+Caro n e M OCA and MCSE certified SQL developer with 4+ years of practical in-house and contracting
+3 experience. At P G, migrated and managed a group of 17 in-house databases which are
+Ko h n integrated into apps, algorithms and forecasting tools, totaling over 75 million records on
+150+ different products. Developed 27 SSRS reports using SSRS 2016 for use in APIs,
+SQL Developer apps, and printed files. Saved 7 of data entry budget by integrating a lanquage-specific
+OCR tool.
+Personal Info
+Experience
+Address P
+3896 Oakmound Road 2017 - SQL Developer
+Westchester, IL 60154 2020 PEG
+E-mail Migrated (from SQL 2012) and managed a group of 17 company SQL
+carol@kohn.com 2016 databases with over 75 million records.
+LinkedIn Constantly working in a multidisciplinary team of 28 analysts, business
+linkedin.com/carolkohn analysts, developers, data scientists and BI professionals.
+ Developed 27 SSRS reports in SSRS 2016 as opposed to 2008 R2,
+Skills allowing for better integration with modern APls, and apps, and saving
+approx. 25-40 hours weekly across the team.
+DiaGe Developed 100+ SQL scripts and automations to implement improvements
+and tools suggested by the multidisciplinary team.
+PL/SQL Saved 7 of the data entry budget ( 140k/pa) by integrating a new,
+ language-specific OCR tool.
+_ eT
+2017 Freelance
+SSRS Reporting Gathered experience of understanding business requirements for 25+
+ EEE different clients across different industries, and creating SQL procedures,
+Automation scripts and automations for different needs.
+fo Migrated 10+ databases from Oracle and Access to SQL Server 2016.
+ Worked pro-bono with a local chain of greengrocers to help them mend
+Languages their annual losses of 75k and be back in the clear in 2017. Now, Al's
+ Greengrocers has three new locations and is operating profitably.
+Spanish
+ EEE 0
+Education
+Conversational
+2012 - BS in Computer Science
+2016 Chicago University
+GPA: 3.8
+Certifications
+MCSE Data Management and Analytics
+MCSA: SQL 2016 Database Administration
+MCSA: SQL 2016 Database Development
+MCSA: BI Reporting
+Oracle Database 12c Administrator Certified Associate
+Oracle Database Administrator Certified Professional

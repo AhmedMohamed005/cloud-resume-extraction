@@ -1,0 +1,48 @@
+SQL Developer
+Diligent SQL Developer with 1 year of experience in designing, implementing, and maintaining database systems.
+Proficient in writing optimized SQL queries and procedures, data analysis, and database performance tuning. Strong
+knowledge of relational database concepts and adept at working with stakehalders to understand requirements and
+deliver efficient solutions. A quick learner with excellent communication and teamwork skills, committed to continuous
+improvement and staying updated on industry best practices.
+joella dargo@gmail.com ) Employment History
+(193) 975-1432 7) SQL Developer at Microsoft Corporation, GA
+May 2023 - Present
+ia Reachiee Sty sag oO Developed and implemented an optimized SQL database system
+for a major Microsoft product, resulting in a 30 increase in query
+performance and reducing data retrieval times by 25 .
+ Successfully migrated 50+ legacy databases to a new cloud-based
+Education infrastructure, improving overall system efficiency by 20 and
+Bachelor of Science in reducing maintenance costs by 15 .
+Computer Science with a Ledateam of junior sal developers in the creation of
+complex reporting solutions for internal stakeholders, increasing
+focus on SQL Development . Aes . shag A .
+4 : data-driven decision-making capabilities by 40 and improving
+at Georgia Institute of overall business intelligence.
+Technology, Atlanta, GA
+Aug 2017 - May 2022 Junior SQL Developer at Oracle Corporation, GA
+Relevant Coursework: Database Aug 2022s Apts
+Systems, SQL Programming, Developed and implemented a database optimization strategy that
+Data Structures, Algorithms, increased query performance by 35 and reduced server load by
+Web Development, Software 20 for Oracle Corporation, GA.
+Engineering, Computer Successfully migrated 5 legacy databases to the latest Oracle SQL
+Networks, and Operating version, resulting in a 15 improvement in overall data processing
+Systems with a focus on SQL time and a reduction of 10 in maintenance costs.
+Development. Streamlined the ETL process for 3 major projects, leading to a
+25 increase in data integration efficiency and reducing data
+discrepancies by 30 .
+7 Created and maintained over 50 complex SQL reports and
+Links dashboards for various departments, improving data-driven
+linkedin.com/in/joelladargo decision making by 40 ,
+Skills Certificates
+Query optimization Microsoft Certified: Azure Database Administrator Associate
+Mar 2022
+Indexing strategies
+V _ _ Oracle SQL Developer Certified Professional
+Stored procedures Nov 2020
+Database normalization
+ETL processes Memberships
+ _ _ _ _ _ _ _ _ _ Microsoft Certified Solutions Associate (MCSA) in SQL
+SQL Server Integration Services Development
+SSIS.
+_ Oracle Certified Professional (OCP) in SQL Development
+PostgreSQL administration

@@ -1,0 +1,41 @@
+May 2014 - Feb 2019 Marks Spencer, Bristol
+Junior SQL Developer
+Outline
+Developed and maintained SQL databases for one of the UK's largest retailers, working on various
+projects such as CRM, supply chain, and inventory management.
+Key Responsibilities
+. Developed and maintained ETL processes for data integration, SSRS reports and dashboards
+. Managed data migration and data synchronisation across multiple databases
+. Monitored database performance and tune queries for optimal performance
+. Collaborated with development teams to integrate new applications with existing databases
+. Created and optimised SQL queries to support business requirements
+Key Achievements
+. Developed a custom SSIS package to automate the company's monthly financial reporting
+process, reducing processing time by 42 and improving data accuracy by 18 .
+Jun 2011 - May 2014 Sainsburys, Bristol
+Database Developer
+Outline
+Worked in the internet technology department of leading UK supermarket chain Sainsburys,
+developing and maintaining high-load databases and curating data for the product development team.
+Key Responsibilities
+. Monitored and responded to alerts and tickets for up to 50 databases simultaneously
+. Independently identified and rectified database performance related issues
+. Upgraded databases, wrote integration code, and familiarised myself with new SOPs
+. Migrated databases within and across different platforms, avoiding data corruption
+. Analysed and applied database vendor patches per project requirements
+Jun 2010 - Aug 2010 NHS England, Bristol
+Software Developer Summer Intern
+Outline
+Completed a three month summer internship working in the internet services department of the NHS,
+assisting senior analysts and developers with the development of patient data systems.
+.
+Education
+. Certified SQL Associate Oracle Dec 2017
+ Oracle Certified Professional: 8.0 Database Administrator Oracle Nov 2015
+. BSc (Hons) Computer Science (2:1) University of Bristol Sep 2008 - Jun 2011
+. 3.x AlLevels (AAA) St Peter's School Sep 2006 - Jun 2008
+. 11x GCSEs (A -B) St Peter's School Sep 2004 - Jun 2006
+Additional
+Software
+Oracle, Microsoft Azure, AWS, Ansible, Oracle Cloud Control, MS Office, SSRS , Python, SQL
+Page 2

@@ -1,0 +1,31 @@
+ais -_. Front-end Developer with 6 years of experience in designing,
+ees, a developing, and managing complex e-commerce sites, travel domain
+i applications, banking applications and Internal Frameworks. Specialized
+ - in React, Redux, TypeScript, JavaScript, Angular, HTML, CSS, NodeJS,
+ Express, Python.
+Madhuvaran Dussa @ 
+React Developer +91 9121771397
+Q Hyderabad, Telangana, India vrnsr2884@gmail.com
+Education
+2011 - 2015
+Auroras Engineering College (Affiliated to JNTU, Hyderabad)
+Electronics And Communications
+1999 - 2009
+Shanthinikethan high school
+High School
+Work Experience
+Senior React Developer + EPAM Systems
+June 2020 - Present
+CBPAS is a Clinical Business Process Automation Solution, which is a Medical Domain Application
+that provides Automatic Solutions to Database By Writing Domain Configurations as well as Rule
+Configuration to Execute on top of a Cloud Database. It's a scalable application for use over multiple
+medical domain databases or different hospital databases to automate daily driven tasks and flow,
+such as Generating Alerts on behalf of patients, creating Patient Reports and collecting Data of
+particular Subjects Etc.
+Roles Responsibilities:
+ Develop a responsive web design using JavaScript, CSS, with libraries such as jQuery, and
+frameworks such as Material UI.
+e Ability to create Reusable Components that can be utilized throughout the Application
+ User Authentication Modules Role Based Rendering and JWT Token Authorization.
+ Domain Rule Configuration Modules For Automatic Solutions.
+Cee SP eee ee ee ee a oe ee

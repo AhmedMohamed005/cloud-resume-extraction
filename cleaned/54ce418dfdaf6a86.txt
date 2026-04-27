@@ -1,0 +1,56 @@
+FIRST LAST
+SQL Analyst
+New York City, NY 10000 first.last@resumeworded.com + 1 (212) 123-4567
+PROFESSIONAL EXPERIENCE
+RESUME WORDED San Francisco, CA and New York, NY
+SQL Analyst 2019-Present
+e Designed databases, stored procedures, reports, and data input interfaces using SQL Server 2005, 2008 and C#,
+gaining positive from the general individual performance while increasing group efficiency rate by 22 .
+
+e Developed C# applications add-ons for ERP systems to better accommodate user needs, provide accurate
+
+information validation, and maintain streamlined processes, gaining a 97 satisfaction rate from all clients.
+
+e Created and updated applications for internal company operations using C#, SQL Server 2008, and SQL Server
+
+2005, facilitating the improvement and efficiency of the overall company and departmental processes.
+
+e Maintained and provided support for multiple ERP systems, retaining 50,000 in budgets due to efficiency.
+GROWTHSI New York, NY
+SQL Analyst 2013-2019
+
+e Performed accurate and thorough analysis of data, presenting all results using SQL, SSIS, MS Access, Excel,
+
+and Visual Basic scripts, obtaining positive feedback of 93 during the presentation and analysis.
+
+e Imported, exported, and manipulated large data sets in multi-million-row databases under tight deadlines,
+
+successfully resulting in the 100 delivery of all projects within given timeframes and set goals/objectives.
+
+e Wrote and automated 100+ tools/scripts to increase departmental efficiency and automate repeatable tasks.
+
+e Manipulated files and their associated data for rapid delivery to clients or loading onto internal databases.
+
+e Collaborated with 20+ project managers, legal counsel, and other team members to gather data for projects.
+GROWTHSI New York, NY
+Data Analyst 2012-2013
+
+e Worked with excel and other apps to track and map account equity among a portfolio of some 1000 clients.
+
+e Supported the Business Development team by helping increase the 25 time deposit balance in campaigns.
+
+e Completed two large-scale national political sentiment surveys involving a minimum of 50,000 responses.
+
+e Successfully led a team to achieve a 99 accuracy level utilizing expertise in leadership and collaboration.
+EDUCATION
+GROWTHSI BUSINESS SCHOOL San Francisco, CA
+Master of Science in Business Analytics 2010-2012
+RESUME WORDED UNIVERSITY New York, NY
+Bachelor of Science in Administration and Software Engineering 2007-2011
+ADDITIONAL INFORMATION
+
+e Technical Skills / Software: SQL Server 2005, SQL Server 2008, C#, ERP systems, SQL, SSIS, MS Access, Excel,
+
+Visual Basic, Math, Statistics, Shell, Python, Tableau
+e Certifications: Analytics Certification (2016) Customer Analytics Certification (2014)
+e Volunteer Community Involvement: Resume Worded Booth Camp Volunteer (2010)
