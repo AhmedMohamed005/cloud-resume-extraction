@@ -55,12 +55,20 @@ def load_model(model_dir: str):
     label2id = label_map["label2id"]
 
     tokenizer = AutoTokenizer.from_pretrained(model_dir)
-    model = AutoModelForTokenClassification.from_pretrained(
-        model_dir,
+    
+    # Load base model first
+    base_model = AutoModelForTokenClassification.from_pretrained(
+        "bert-base-cased",
         num_labels=len(label2id),
         id2label=id2label,
         label2id=label2id,
+        ignore_mismatched_sizes=True,
     )
+    
+    # Then wrap it with the saved LoRA adapters
+    model = PeftModel.from_pretrained(base_model, model_dir)
+    model = model.merge_and_unload()  # fuse LoRA weights into base model
+    
     return tokenizer, model, id2label
 
 

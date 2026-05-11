@@ -21,8 +21,8 @@ import random
 from pathlib import Path
 from transformers import AutoTokenizer
 
-INPUT_FILE  = "../annotation/annotations.json"
-OUTPUT_DIR  = "dataset"
+INPUT_FILE  = "../../annotation/project-2-auto-annotated.json"
+OUTPUT_DIR  = "../../dataset"
 MODEL_NAME  = "bert-base-cased"
 SEED        = 42
 TRAIN_SPLIT = 0.8

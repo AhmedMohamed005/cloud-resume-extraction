@@ -1,0 +1,36 @@
+{
+  "label2id": {
+    "O": 0,
+    "B-NAME": 1,
+    "I-NAME": 2,
+    "B-SKILL": 3,
+    "I-SKILL": 4,
+    "B-EDUCATION": 5,
+    "I-EDUCATION": 6,
+    "B-EXPERIENCE": 7,
+    "I-EXPERIENCE": 8,
+    "B-COMPANY": 9,
+    "I-COMPANY": 10,
+    "B-DATE": 11,
+    "I-DATE": 12,
+    "B-LOCATION": 13,
+    "I-LOCATION": 14
+  },
+  "id2label": {
+    "0": "O",
+    "1": "B-NAME",
+    "2": "I-NAME",
+    "3": "B-SKILL",
+    "4": "I-SKILL",
+    "5": "B-EDUCATION",
+    "6": "I-EDUCATION",
+    "7": "B-EXPERIENCE",
+    "8": "I-EXPERIENCE",
+    "9": "B-COMPANY",
+    "10": "I-COMPANY",
+    "11": "B-DATE",
+    "12": "I-DATE",
+    "13": "B-LOCATION",
+    "14": "I-LOCATION"
+  }
+}

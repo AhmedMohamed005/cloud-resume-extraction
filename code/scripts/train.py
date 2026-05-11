@@ -177,16 +177,15 @@ def main():
         per_device_eval_batch_size=BATCH_SIZE,
         learning_rate=LR,
         weight_decay=0.01,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="f1",
         greater_is_better=True,
-        logging_dir=f"{OUTPUT_DIR}/logs",
         logging_steps=20,
-        warmup_ratio=0.1,
-        fp16=torch.cuda.is_available(),   # use mixed precision if GPU available
-        report_to="none",                  # disable wandb/tensorboard
+        warmup_steps=50,
+        fp16=torch.cuda.is_available(),
+        report_to="none",
         label_names=["labels"],
     )
 
@@ -204,7 +203,7 @@ def main():
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        tokenizer=tokenizer,
+        processing_class=tokenizer, 
         data_collator=data_collator,
         compute_metrics=compute_metrics(label_map),
     )
