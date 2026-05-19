@@ -11,5 +11,5 @@ __pycache__/
 .ruff_cache/
 .ipynb_checkpoints/
 *.log
-Ahmed.pem
 .DS_Store
+*.pem
