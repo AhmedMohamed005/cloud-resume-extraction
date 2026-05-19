@@ -1,0 +1,30 @@
+file_path,raw_label,canonical_label,file_name,size_bytes
+dataset/Resumes PDF/PythonDeveloper/0b01fefccbfd4dbd.pdf,PythonDeveloper,python_developer,0b01fefccbfd4dbd.pdf,101219
+dataset/Resumes PDF/Python Developer/17.pdf,Python Developer,python_developer,17.pdf,710472
+dataset/Resumes PDF/Python Developer/15.pdf,Python Developer,python_developer,15.pdf,307549
+dataset/Resumes PDF/PythonDeveloper/cddb6c9624a0d330.pdf,PythonDeveloper,python_developer,cddb6c9624a0d330.pdf,303802
+dataset/Resumes PDF/PythonDeveloper/f7ea5d5a5c7a6a08.pdf,PythonDeveloper,python_developer,f7ea5d5a5c7a6a08.pdf,353523
+dataset/Resumes PDF/Python Developer/103.pdf,Python Developer,python_developer,103.pdf,407789
+dataset/Resumes PDF/Python Developer/76.pdf,Python Developer,python_developer,76.pdf,641621
+dataset/Resumes PDF/PythonDeveloper/3b36b980c197bec8.pdf,PythonDeveloper,python_developer,3b36b980c197bec8.pdf,76359
+dataset/Resumes PDF/Python Developer/111.pdf,Python Developer,python_developer,111.pdf,956746
+dataset/Resumes PDF/PythonDeveloper/1d4fe5e5c01905e4.pdf,PythonDeveloper,python_developer,1d4fe5e5c01905e4.pdf,111124
+dataset/Resumes PDF/PythonDeveloper/eb0747b7bc20d1a1.pdf,PythonDeveloper,python_developer,eb0747b7bc20d1a1.pdf,113839
+dataset/Resumes PDF/React/51add2385d68c820.pdf,React,react,51add2385d68c820.pdf,238385
+dataset/Resumes PDF/React/4094863af64f7135.pdf,React,react,4094863af64f7135.pdf,48373
+dataset/Resumes PDF/React Developer/174.pdf,React Developer,react_developer,174.pdf,653642
+dataset/Resumes PDF/React Developer/98.pdf,React Developer,react_developer,98.pdf,676054
+dataset/Resumes PDF/React Developer resumes/Image_82.pdf,React Developer resumes,react_developer,Image_82.pdf,544040
+dataset/Resumes PDF/React Developer/100.pdf,React Developer,react_developer,100.pdf,428205
+dataset/Resumes PDF/React Developer resumes/Image_1.pdf,React Developer resumes,react_developer,Image_1.pdf,145685
+dataset/Resumes PDF/React Developer/172.pdf,React Developer,react_developer,172.pdf,348300
+dataset/Resumes PDF/React Developer/9.pdf,React Developer,react_developer,9.pdf,385606
+dataset/Resumes PDF/React Developer/73.pdf,React Developer,react_developer,73.pdf,408465
+dataset/Resumes PDF/React Developer resumes/Image_54.pdf,React Developer resumes,react_developer,Image_54.pdf,55846
+dataset/Resumes PDF/SAP Developer/63.pdf,SAP Developer,sap_developer,63.pdf,1084402
+dataset/Resumes PDF/SAP Developer/9.pdf,SAP Developer,sap_developer,9.pdf,475074
+dataset/Resumes PDF/SAP Developer/65.pdf,SAP Developer,sap_developer,65.pdf,321663
+dataset/Resumes PDF/SAP Developer/99.pdf,SAP Developer,sap_developer,99.pdf,392154
+dataset/Resumes PDF/SAP Developer/88.pdf,SAP Developer,sap_developer,88.pdf,721209
+dataset/Resumes PDF/SAP Developer/106.pdf,SAP Developer,sap_developer,106.pdf,306278
+dataset/Resumes PDF/SAP Developer/109.pdf,SAP Developer,sap_developer,109.pdf,590502

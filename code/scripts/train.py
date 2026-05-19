@@ -27,23 +27,29 @@ from transformers import (
     TrainingArguments,
     Trainer,
     DataCollatorForTokenClassification,
+    EarlyStoppingCallback,
 )
-from peft import LoraConfig, get_peft_model, TaskType
+from peft import LoraConfig, PeftModel, get_peft_model, TaskType
 from seqeval.metrics import classification_report, f1_score
 
-# ── Config ─────────────────────────────────────────────────────────────────────
-MODEL_NAME   = "bert-base-cased"
-DATASET_DIR  = "dataset"
-OUTPUT_DIR   = "models/resume-ner"
-BATCH_SIZE   = 8       # lower if you get OOM errors
-EPOCHS       = 5
-LR           = 2e-4    # higher than full fine-tuning because LoRA adapters are small
-MAX_LENGTH   = 512
+# ── Config (override with env for quick sweeps) ────────────────────────────────
+MODEL_NAME   = os.environ.get("RESUME_MODEL_NAME", "bert-base-cased")
+DATASET_DIR  = os.environ.get("RESUME_DATASET_DIR", "dataset")
+OUTPUT_DIR   = os.environ.get("RESUME_OUTPUT_DIR", "models/resume-ner")
+BATCH_SIZE   = int(os.environ.get("RESUME_BATCH_SIZE", "8"))
+EPOCHS       = int(os.environ.get("RESUME_EPOCHS", "8"))
+LR           = float(os.environ.get("RESUME_LR", "2e-4"))
+MAX_LENGTH   = int(os.environ.get("RESUME_MAX_LENGTH", "512"))
+EARLY_STOP_PATIENCE = int(os.environ.get("RESUME_EARLY_STOPPING_PATIENCE", "2"))
+SAVE_TOTAL_LIMIT = int(os.environ.get("RESUME_SAVE_TOTAL_LIMIT", "4"))
 
-# LoRA config — explained below
-LORA_R       = 8       # rank: higher = more capacity but more parameters
-LORA_ALPHA   = 32      # scaling: usually 2×r or 4×r
-LORA_DROPOUT = 0.1
+# LoRA — higher rank / more modules helps if data is noisy (uses more VRAM)
+LORA_R       = int(os.environ.get("RESUME_LORA_R", "16"))
+LORA_ALPHA   = int(os.environ.get("RESUME_LORA_ALPHA", str(LORA_R * 2)))
+LORA_DROPOUT = float(os.environ.get("RESUME_LORA_DROPOUT", "0.05"))
+# Comma-separated HF module suffixes, e.g. "query,value,key,intermediate.dense,output.dense"
+_raw_targets = os.environ.get("RESUME_LORA_TARGET_MODULES", "query,value,key").strip()
+LORA_TARGET_MODULES = [s.strip() for s in _raw_targets.split(",") if s.strip()]
 
 
 def load_dataset_from_json(path: str) -> Dataset:
@@ -131,6 +137,11 @@ def main():
 
     print(f"Train: {len(train_dataset)} examples")
     print(f"Val:   {len(val_dataset)} examples")
+    print(
+        f"Train config: epochs={EPOCHS} batch={BATCH_SIZE} lr={LR} "
+        f"LoRA r={LORA_R} alpha={LORA_ALPHA} targets={LORA_TARGET_MODULES} "
+        f"early_stop_patience={EARLY_STOP_PATIENCE}"
+    )
 
     # ── Load tokenizer and model ───────────────────────────────────────────────
     print(f"\nLoading {MODEL_NAME}...")
@@ -157,7 +168,7 @@ def main():
         r=LORA_R,
         lora_alpha=LORA_ALPHA,
         lora_dropout=LORA_DROPOUT,
-        target_modules=["query", "value"],
+        target_modules=LORA_TARGET_MODULES,
         bias="none",
         modules_to_save=["classifier"],   # always train the classification head fully
     )
@@ -179,11 +190,12 @@ def main():
         weight_decay=0.01,
         eval_strategy="epoch",
         save_strategy="epoch",
+        save_total_limit=SAVE_TOTAL_LIMIT,
         load_best_model_at_end=True,
         metric_for_best_model="f1",
         greater_is_better=True,
         logging_steps=20,
-        warmup_steps=50,
+        warmup_ratio=float(os.environ.get("RESUME_WARMUP_RATIO", "0.06")),
         fp16=torch.cuda.is_available(),
         report_to="none",
         label_names=["labels"],
@@ -198,14 +210,19 @@ def main():
     )
 
     # ── Trainer ────────────────────────────────────────────────────────────────
+    callbacks = []
+    if EARLY_STOP_PATIENCE > 0:
+        callbacks.append(EarlyStoppingCallback(early_stopping_patience=EARLY_STOP_PATIENCE))
+
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        processing_class=tokenizer, 
+        processing_class=tokenizer,
         data_collator=data_collator,
         compute_metrics=compute_metrics(label_map),
+        callbacks=callbacks,
     )
 
     # ── Train ──────────────────────────────────────────────────────────────────
@@ -217,13 +234,31 @@ def main():
     final_path = Path(OUTPUT_DIR) / "final"
     trainer.save_model(str(final_path))
     tokenizer.save_pretrained(str(final_path))
-    print(f"\nModel saved to {final_path}/")
+    print(f"\nAdapter saved to {final_path}/")
 
     # Save label map alongside model for inference
     with open(final_path / "label_map.json", "w") as f:
         json.dump(label_map, f, indent=2)
 
-    print("\nDone. Next step: run  python test_model.py  to see predictions on new resumes.")
+    # Standalone merged bundle for API (single HF load; avoids runtime PEFT edge cases)
+    merged_dir = final_path / "merged"
+    print(f"Merging LoRA into base and saving to {merged_dir}/ ...")
+    base_merged = AutoModelForTokenClassification.from_pretrained(
+        MODEL_NAME,
+        num_labels=num_labels,
+        id2label=id2label,
+        label2id=label2id,
+        ignore_mismatched_sizes=True,
+    )
+    peft_loaded = PeftModel.from_pretrained(base_merged, str(final_path))
+    merged_model = peft_loaded.merge_and_unload()
+    merged_dir.mkdir(parents=True, exist_ok=True)
+    merged_model.save_pretrained(str(merged_dir))
+    tokenizer.save_pretrained(str(merged_dir))
+    with open(merged_dir / "label_map.json", "w") as f:
+        json.dump(label_map, f, indent=2)
+
+    print("\nDone. Next: run  python code/scripts/test_model.py  or export with  python code/scripts/export_merged_lora.py")
 
 
 if __name__ == "__main__":

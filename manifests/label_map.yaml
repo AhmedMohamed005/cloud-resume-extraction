@@ -1,0 +1,11 @@
+canonical_label_map:
+  python_developer:
+  - Python Developer
+  - PythonDeveloper
+  react:
+  - React
+  react_developer:
+  - React Developer
+  - React Developer resumes
+  sap_developer:
+  - SAP Developer

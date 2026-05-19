@@ -49,6 +49,11 @@ _SKILL_BANK = {
     # Additional cloud / tools
     "aws", "azure", "gcp", "s3", "ec2", "lambda",
     "terraform", "ansible", "kubernetes", "docker",
+    # ERP / business / marketing (common in non-dev resumes)
+    "sap", "abap", "crm", "salesforce", "hubspot", "marketing",
+    "digital marketing", "telemarketing", "sales", "erp",
+    "bentley", "autodesk", "projectwise", "kpi", "kpis",
+    "qa", "quality assurance", "business intelligence", "power bi",
 }
 
 
@@ -73,23 +78,115 @@ _PHONE_PATTERNS = [
     re.compile(r"(?<!\d)(?:\+?\d{1,3}[\s.-]?)?\d{2,4}[\s.-]\d{3,4}[\s.-]\d{3,4}(?!\d)"),
 ]
 
+# Egypt mobile: 01[0125] + 8 digits (11 total), often written without spaces
+_EGYPT_MOBILE_RE = re.compile(r"(?<!\d)(01[0125]\d{8})(?!\d)")
+# Egypt international +20 + 10-digit national (e.g. +201094745504)
+_EGYPT_INTL_RE = re.compile(r"(?<!\d)\+20\s*([1-9]\d{9})(?!\d)")
+
+# "Porsche Costa Mesa, Ca" / "Ga Telesis Fort Lauderdale, FL" — employer + city + state, not a person name
+_US_STATE_2 = frozenset(
+    "AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split()
+)
+
+
+def _looks_like_company_city_state(line: str) -> bool:
+    """Heuristic: 4+ tokens and (multi-part address OR trailing US-style state)."""
+    s = line.strip()
+    words = s.split()
+    if len(words) < 4:
+        return False
+    if s.count(",") >= 2:
+        return True
+    m = re.search(r",\s*([A-Za-z]{1,3})\s*$", s)
+    if not m:
+        return False
+    tail = m.group(1)
+    if len(tail) == 2 and tail.upper() in _US_STATE_2:
+        return True
+    if len(tail) == 2 and tail[0].isupper() and tail[1].islower():
+        return True
+    return False
+
 
 def _first_email(text: str):
-    m = re.search(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", text)
-    return m.group(0) if m else None
+    """
+    Best-effort email from resume text. Handles OCR spacing around @ and 'at' spell-outs.
+    """
+    if not text:
+        return None
+    # Tighten OCR-split @: "user @ domain.com" already normalized in preprocess; repeat safe here
+    blob = re.sub(r"\s*@\s*", "@", text.replace("\uff20", "@"))
+    strict = r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
+    m = re.search(strict, blob)
+    if m:
+        return m.group(0)
+    # Missing @: "user domain.com" on one line (OCR dropped @)
+    m = re.search(
+        r"\b([A-Za-z0-9._%+-]{2,40})\s+([A-Za-z0-9][A-Za-z0-9.-]*\.(?:com|net|org|edu|io|co|gov|uk))\b",
+        blob,
+        re.IGNORECASE,
+    )
+    if m:
+        return f"{m.group(1)}@{m.group(2)}"
+    # "user at domain.com"
+    m = re.search(
+        r"\b([A-Za-z0-9._%+-]{2,40})\s+at\s+([A-Za-z0-9][A-Za-z0-9.-]*\.[A-Za-z]{2,})\b",
+        blob,
+        re.IGNORECASE,
+    )
+    if m:
+        return f"{m.group(1)}@{m.group(2)}"
+    return None
+
+
+def _format_phone_digits(digits: str) -> str | None:
+    """Format digit-only string; avoid turning Egyptian 01… into fake US (115) numbers."""
+    if not digits.isdigit() or len(digits) < 10:
+        return None
+    if len(digits) == 11 and digits.startswith("01") and digits[2] in "0125":
+        return f"{digits[:3]} {digits[3:7]} {digits[7:]}"
+    if len(digits) == 10:
+        return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
+    if len(digits) == 11 and digits[0] == "1" and digits[1] in "3456789":
+        return _format_phone_digits(digits[1:])
+    if 11 <= len(digits) <= 15:
+        return f"+{digits}"
+    return None
 
 
 def _first_phone(text: str):
+    # +20 + 10 digits (do not merge whole-resume digits — that breaks on emails / dates)
+    norm = re.sub(r"[\u200b-\u200d\ufe0f\u00a0]", " ", text)
+    m = _EGYPT_INTL_RE.search(norm)
+    if m:
+        ten = m.group(1)
+        return f"+20 {ten[:2]} {ten[2:6]} {ten[6:]}"
+
+    compact = re.sub(r"\s+", "", text)
+    m = _EGYPT_MOBILE_RE.search(compact)
+    if m:
+        formatted = _format_phone_digits(m.group(1))
+        if formatted:
+            return formatted
+
     flat_text = re.sub(r"\s+", " ", text)
     for pattern in _PHONE_PATTERNS:
-        for m in pattern.finditer(flat_text):
-            candidate = m.group(0).strip().replace("\n", " ").strip()
+        for match in pattern.finditer(flat_text):
+            candidate = match.group(0).strip().replace("\n", " ").strip()
             digits = re.sub(r"\D", "", candidate)
+            if len(digits) == 11 and digits.startswith("01") and digits[2] in "0125":
+                return _format_phone_digits(digits)
             if not (10 <= len(digits) <= 15):
                 continue
-            if len(digits) > 10:
-                digits = digits[-10:]
-            return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
+            if len(digits) > 10 and not (digits.startswith("01") or (digits[0] == "1" and digits[1] in "3456789")):
+                continue
+            if len(digits) > 10 and digits[0] == "1" and digits[1] in "3456789":
+                digits = digits[1:]
+            elif len(digits) > 10:
+                continue
+            formatted = _format_phone_digits(digits)
+            if formatted:
+                return formatted
     return None
 
 
@@ -120,6 +217,9 @@ def score_name_candidate(line: str) -> int:
     if len(line) < 40:
         score += 1
 
+    if _looks_like_company_city_state(line):
+        score -= 10
+
     # Stopword / section header match
     normalized = re.sub(r"[^a-z\s]", "", low).strip()
     if normalized in _NAME_STOPWORDS or normalized in _SECTION_HEADERS:
@@ -149,10 +249,15 @@ def extract_name(text: str):
     candidates = lines[:15]  # extended from 10 — some resumes have address before name
     if not candidates:
         return None
-    best = max(candidates, key=score_name_candidate, default="")
-    if not best or score_name_candidate(best) <= 0:
-        return None
-    return " ".join(w.capitalize() for w in best.split())
+    scored = [(ln, score_name_candidate(ln)) for ln in candidates]
+    scored.sort(key=lambda x: -x[1])
+    for line, sc in scored:
+        if sc <= 0:
+            break
+        if _looks_like_company_city_state(line):
+            continue
+        return " ".join(w.capitalize() for w in line.split())
+    return None
 
 
 def _name_candidates(text: str) -> list[dict[str, Any]]:
@@ -208,8 +313,14 @@ def _is_ocr_noise(line: str) -> bool:
     ascii_chars = sum(1 for c in stripped if c.isascii() and c.isalpha())
     if ascii_chars == 0:
         return True
-    # Date + location lines like "#8 2003-2007 9 Columbus, OH"
+    # Date + location lines like "#8 2003-2007 9 Columbus, OH" (not plain "2023 - Present")
     if _DATE_LOCATION_RE.match(stripped):
+        if re.match(
+            r"^\d{4}\s*[-–—]?\s*(present|current|now|ongoing)\s*$",
+            stripped,
+            re.IGNORECASE,
+        ):
+            return False
         return True
     # Contact info lines that bleed into sections
     if _CONTACT_LINE_RE.search(stripped) and "@" in stripped:
@@ -258,15 +369,56 @@ def _is_standalone_state(line: str) -> bool:
     """Return True if line is just a US state name (city/state continuation line)."""
     return line.strip().lower() in _US_STATES
 
+
+_EDU_DATE_PREFIX = re.compile(
+    r"^(\d{4})\s*[-–—]?\s*(present|current|now|presen|ongoing)\.?\s*$",
+    re.IGNORECASE,
+)
+
+
+def _normalize_education_lines(lines: list[str]) -> list[str]:
+    """Merge '2023 – Present' + degree line; drop orphan year-only fragments."""
+    if not lines:
+        return []
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
+        if _EDU_DATE_PREFIX.match(line) and nxt:
+            out.append(f"{line} {nxt}")
+            i += 2
+            continue
+        if _EDU_DATE_PREFIX.match(line) and not nxt:
+            i += 1
+            continue
+        if re.match(r"^\d{4}\s*[-–—]?\s*$", line) and nxt:
+            out.append(f"{line.strip()} {nxt}")
+            i += 2
+            continue
+        out.append(line)
+        i += 1
+    return out
+
+
 # ── Section splitting ─────────────────────────────────────────────────────────
 # FIX: expanded SECTION_MAP to include all headers seen in real resumes.
 # This prevents sections like STRENGTHS / PASSIONS from being swallowed
 # into the education bucket.
 _SECTION_MAP: dict[str, list[str]] = {
-    "experience":  ["experience", "employment", "work history", "work experience"],
+    "experience":  [
+        "experience",
+        "professional experience",
+        "employment",
+        "employment history",
+        "work history",
+        "work experience",
+        "relevant experience",
+        "internship experience",
+    ],
     "education":   ["education", "academic background", "academic"],
     "skills":      ["skills", "technical skills", "core skills", "key skills",
-                    "competencies", "technologies"],
+                    "competencies", "technologies", "technical skill"],
     # These don't map to schema fields but must be recognised as section
     # boundaries so they STOP the previous section from over-capturing.
     "_strengths":  ["strengths"],
@@ -274,7 +426,7 @@ _SECTION_MAP: dict[str, list[str]] = {
     "_certifications": ["certification", "certifications", "licenses"],
     "_awards":     ["awards", "achievements", "accomplishments"],
     "_projects":   ["projects", "personal projects", "portfolio"],
-    "_summary":    ["summary", "profile", "objective", "about me"],
+    "_summary":    ["summary", "professional summary", "profile", "objective", "about me"],
     "_references": ["references"],
 }
 
@@ -289,10 +441,26 @@ def split_sections(text: str) -> dict[str, list[str]]:
         low = line.lower().strip()
         matched = False
         for sec, keywords in _SECTION_MAP.items():
-            if any(low == k or low.startswith(k) for k in keywords):
-                current = sec
-                sections.setdefault(current, [])
-                matched = True
+            for k in keywords:
+                if low == k:
+                    current = sec
+                    sections.setdefault(current, [])
+                    matched = True
+                    break
+                head, _, tail = line.partition(":")
+                if head.strip().lower() == k:
+                    current = sec
+                    sections.setdefault(current, [])
+                    if tail.strip():
+                        sections[current].append(tail.strip())
+                    matched = True
+                    break
+                if low.startswith(k):
+                    current = sec
+                    sections.setdefault(current, [])
+                    matched = True
+                    break
+            if matched:
                 break
         if not matched:
             sections.setdefault(current, []).append(line)
@@ -308,6 +476,8 @@ def split_sections(text: str) -> dict[str, list[str]]:
             sections[key],
             drop_states=(key == "education"),
         )
+        if key == "education":
+            sections[key] = _normalize_education_lines(sections[key])
 
     return sections
 

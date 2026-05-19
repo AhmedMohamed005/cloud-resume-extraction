@@ -10,7 +10,7 @@ User upload
 →
 
 Text Extraction
-PyMuPDF
+PyMuPDF (primary) / pdfminer.six (fallback) / Tesseract OCR (scanned PDFs)
 →
 
 Preprocessing
@@ -44,7 +44,7 @@ Hosts the FastAPI application server
 Layer 3 — AI Processing Pipeline
 Core intelligence — extract, clean, infer
 PDF Parser
-PyMuPDF / pdfminer
+PyMuPDF / pdfminer / OCR when needed
 →
 raw text
 Preprocessor
@@ -56,10 +56,8 @@ HuggingFace + LoRA
 ↓  Entity predictions
 JSON Formatter
 Structures model output into schema: name, skills, education, experience
-←
-Evaluation Module
-Precision / Recall / F1-score metrics
 ↓  JSON response
+(Metrics: Precision / Recall / F1 are computed offline via training/eval scripts, not on every API request.)
 Layer 4 — Cloud Infrastructure (AWS)
 Scalability, storage, access control, monitoring
 AWS S3
@@ -86,7 +84,7 @@ Request routing
 FastAPI validates the request, extracts the PDF binary, and forwards it to the processing pipeline.
 3
 Text extraction
-The PDF parser (PyMuPDF / pdfminer) reads the binary and extracts raw text content.
+The PDF parser (PyMuPDF / pdfminer) reads the binary and extracts raw text; OCR runs when embedded text is too weak (image-only PDFs).
 4
 Preprocessing
 The raw text is cleaned: whitespace normalised, noise removed, encoding resolved.

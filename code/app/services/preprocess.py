@@ -72,6 +72,12 @@ def normalize_ocr(text: str) -> str:
         "bachelor s": "bachelor's",
         "Master s":   "Master's",
         "master s":   "master's",
+        "Camputer":   "Computer",
+        "camputer":   "computer",
+        "Phitadelphia": "Philadelphia",
+        "phitadelphia": "philadelphia",
+        "campany": "company",
+        "Campany": "Company",
     }
     for wrong, correct in replacements.items():
         text = text.replace(wrong, correct)
@@ -98,6 +104,10 @@ def clean_resume_text(raw_text: str) -> str:
 
     # Step 2: OCR artifact repair (must happen on raw text before symbol stripping)
     text = normalize_ocr(text)
+    # Fullwidth @ (some OCR / PDF exports) → ASCII
+    text = text.replace("\uff20", "@")
+    # Spacing around @ breaks the strict email regex (common on OCR lines)
+    text = re.sub(r"\s*@\s*", "@", text)
 
     # Step 3: strip characters that are never meaningful in a resume
     # Keep: word chars, whitespace, email/url chars (@, .), programming symbols

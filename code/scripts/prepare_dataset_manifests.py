@@ -197,7 +197,7 @@ def main() -> None:
         raise RuntimeError("No PDF files were found. Check dataset-root path.")
 
     inventory_path = args.output_dir / "dataset_inventory.csv"
-    label_map_path = args.output_dir / "label_map.generated.yaml"
+    label_map_path = args.output_dir / "label_map.yaml"
     train_path = args.output_dir / "train.csv"
     val_path = args.output_dir / "val.csv"
     test_path = args.output_dir / "test.csv"

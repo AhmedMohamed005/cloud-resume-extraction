@@ -20,6 +20,20 @@ class ExtractionMetadata(BaseModel):
     text_length: int
     confidence: float = Field(ge=0.0, le=1.0)
     processing_ms: int = Field(ge=0)
+    inference_backend: Optional[str] = Field(
+        default=None,
+        description="ner_lora_hybrid (NER + heuristics), mock_heuristic, or mock_heuristic_fallback",
+    )
+    parser_quality: Optional[str] = Field(
+        default=None,
+        description="ok, low_text, empty, noisy_symbols",
+    )
+    parser_confidence: Optional[float] = Field(
+        default=None,
+        ge=0.0,
+        le=1.0,
+        description="Heuristic 0–1 from parser_quality (WP2 metadata).",
+    )
 
 
 class ExtractResponse(BaseModel):

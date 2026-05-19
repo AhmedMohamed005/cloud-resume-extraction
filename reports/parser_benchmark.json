@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-05-11T22:39:21.434555+00:00",
+  "dataset_root": "C:\\Users\\Lenovo\\code\\cloud-resume-extraction\\dataset\\Resumes PDF",
+  "synthetic_embedded_text": {
+    "ok": true,
+    "parser_used": "pymupdf",
+    "char_count": 169,
+    "quality_flag": "ok"
+  },
+  "corpus_pdf_count": 294,
+  "sampled": 150,
+  "non_empty_text_rate": 0.0,
+  "avg_chars_on_success": 0.0,
+  "parser_usage_counts": {},
+  "error_counts_top": {
+    "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr": 150
+  },
+  "error_samples": [
+    {
+      "file": "Python Developer\\88.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "Python Developer\\112.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "React Developer\\115.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "React\\8e7609c97f0f35d5.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "React\\2144a62b22df6d3e.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "PythonDeveloper\\245eb6cea7d0f565.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "Python Developer\\74.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    },
+    {
+      "file": "SAP Developer\\67.pdf",
+      "error": "Tesseract binary is not installed. Windows: install from https://github.com/UB-Mannheim/tesseract/wiki or `choco install tesseract`. macOS: brew install tesseract. Linux: apt install tesseract-ocr"
+    }
+  ],
+  "interpretation": "Sampled PDFs appear to need OCR; install Tesseract and pytesseract to raise success rate."
+}

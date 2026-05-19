@@ -1,4 +1,15 @@
 dataset/
+models/
 .env
 .env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.log
+Ahmed.pem
 .DS_Store
